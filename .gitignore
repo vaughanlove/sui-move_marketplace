@@ -3,3 +3,4 @@
 *.mv
 .build
 build
+wallet.log.*
