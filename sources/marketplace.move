@@ -51,6 +51,7 @@ module move_marketplace::marketplace {
         );
     }
 
+    // actually make an exchange - todo add royaltys and other security checks
     public entry fun exchange<T: key + store, C>(
         paid: Coin<C>,
         escrow: &mut EscrowedObj<T, C>,
@@ -65,14 +66,14 @@ module move_marketplace::marketplace {
         transfer::transfer(escrowed_item, tx_context::sender(ctx));
     }
 
-    // /// The `creator` can cancel the escrow and get back the escrowed item
-    // public entry fun cancel<T: key + store, ExchangeForT: key + store>(
-    //     escrow: &mut EscrowedObj<T, ExchangeForT>,
-    //     ctx: &mut TxContext
-    // ) {
-    //     assert!(&tx_context::sender(ctx) == &escrow.creator, EWrongOwner);
-    //     assert!(option::is_some(&escrow.escrowed), EAlreadyExchangedOrCancelled);
-    //     transfer::transfer(option::extract<T>(&mut escrow.escrowed), escrow.creator);
-    // }
+    /// The `creator` can cancel the escrow and get back the escrowed item
+    public entry fun cancel<T: key + store, C>(
+        escrow: &mut EscrowedObj<T, ExchangeForT>,
+        ctx: &mut TxContext
+    ) {
+        assert!(&tx_context::sender(ctx) == &escrow.creator, EWrongOwner);
+        assert!(option::is_some(&escrow.escrowed), EAlreadyExchangedOrCancelled);
+        transfer::transfer(option::extract<T>(&mut escrow.escrowed), escrow.creator);
+    }
 }
 
