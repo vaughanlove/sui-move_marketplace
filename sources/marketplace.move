@@ -7,7 +7,7 @@ module move_marketplace::marketplace {
     use sui::id::{Self, ID, VersionedID};
     use sui::transfer::{Self, ChildRef};
     use sui::coin::{Self, Coin};
-    use std::option::{Self, Option};
+    //use std::option::{Self, Option};
 
 
     // For when amount paid does not match the expected.
@@ -22,7 +22,7 @@ module move_marketplace::marketplace {
     }
 
     /// A single listing which contains the listed item and its price in [`Coin<C>`].
-    struct Listing<T: key + store, phantom C> has key, store {
+    struct Listing<phantom T: key + store, phantom C> has key, store {
         id: VersionedID,
         item_ref: ChildRef<T>,
         ask: u64, // Coin<C>
@@ -55,9 +55,9 @@ module move_marketplace::marketplace {
 
         // make listing object to hold asking price, owner, and reference to the actual nft owned by the marketplace.
         let listing = Listing<T, C> {
-            item_ref: child_ref,
-            ask,
             id: tx_context::new_id(ctx),
+            ask,
+            item_ref: child_ref,
             owner: tx_context::sender(ctx),
         };
 
@@ -66,31 +66,64 @@ module move_marketplace::marketplace {
 
     // owner takes down listing and obtains item.
     public entry fun delist<T: key + store, C>(
-        marketplace: &mut Marketplace,
+        _marketplace: &mut Marketplace,
         item: T, 
+        objects: &mut Bag,
+        listing: Listing<T, C>,
+        _ctx: &mut TxContext,
+    ) {
+        let (owner_address, item_reference) = delist_helper(objects, listing);
+        // here is where I should check if the sender is the owner of the listing.
+        transfer::transfer_child_to_address(item, item_reference, owner_address);
+    }
+
+    public fun delist_helper<T: key + store, C>(
+        objects: &mut Bag,
+        listing: Listing<T, C>,
+    ): (address, ChildRef<T>) {
+        let listing = bag::remove(objects, listing);
+        let Listing { id: listing_id, item_ref: item_reference, ask: _, owner: owner_address } = listing;
+        id::delete(listing_id);
+        (owner_address, item_reference)
+    }
+
+        // owner takes down listing and obtains item.
+    public entry fun delist_listing<T: key + store, C>(
+        _marketplace: &mut Marketplace,
         objects: &mut Bag,
         listing: Listing<T, C>,
         ctx: &mut TxContext,
     ) {
-        let listing = bag::remove(objects, listing);
-        let Listing { id, item_ref, ask: _, owner} = listing;
+        assert!(tx_context::sender(ctx) == listing.owner, 0);
+
+        bag::remove_and_take(objects, listing, ctx);
+        //let Listing { id: listing_id, item_ref: item_reference, ask: _, owner: owner_address} = listing;
         // here is where I should check if the sender is the owner of the listing.
-        transfer::transfer_child_to_address(item, item_ref, owner);
-        id::delete(id);
+        //transfer::transfer_child_to_address(item, item_reference, owner_address);
+        //id::delete(listing_id);
     }
 
-    // public entry fun unpack_listing<T: key + store, C>(
-    //     _marketplace: &Marketplace,
-    //     listing: Listing<T, C>,
-    //     _ctx: &mut TxContext
-    // ) {
-    //     let Listing { id, item, ask: _, owner} = listing;
+    public entry fun unpack_listing<T: key + store, C>(
+        _marketplace: &Marketplace,
+        item: T,
+        listing: Listing<T, C>,
+        _ctx: &mut TxContext
+    ) {
+        let Listing { id: listing_id, item_ref: item_reference, ask: _, owner} = listing;
 
-    //     let escrowed_item = option::extract<T>(&mut item);
+        transfer::transfer_child_to_address(item, item_reference, owner);
+        id::delete(listing_id);
+    }
 
-    //     transfer::transfer(escrowed_item, owner);
-    //     id::delete(id);
-    // }
+    public entry fun buy_listing<T: key + store, C> (
+        _marketplace: &Marketplace,
+        objects: &mut Bag,
+        listing: Listing<T, C>,
+        paid: Coin<C>
+        ctx: &mut TxContext,
+    ) {
+        
+    }
 
     // public entry fun delist_and_take<T: key + store, C>(
     //     _marketplace: &Marketplace,

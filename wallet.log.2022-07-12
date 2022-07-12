@@ -1,0 +1,14 @@
+2022-07-12T00:11:04.441685Z  INFO sui_storage::lock_service: LockService queries processing loop started
+2022-07-12T00:11:04.441685Z  INFO sui_storage::lock_service: LockService command processing loop started
+2022-07-12T00:11:04.529155Z  INFO sui::wallet_commands:                  Object ID                  |  Version   |                    Digest                    |   Owner Type    |               Object Type               
+2022-07-12T00:11:04.529191Z  INFO sui::wallet_commands: ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2022-07-12T00:11:04.529208Z  INFO sui::wallet_commands:  0x24b72414954d9ccd82413da5bf8fc5cf9f200f2f |     3      | VYTgdsYj5ppes+XtyzaCIyhXh840ygZfxHgzRsFgBWI= |  AddressOwner   |        0x2::devnet_nft::DevNetNFT       
+2022-07-12T00:11:04.529234Z  INFO sui::wallet_commands:  0x76b62992826133093c8078b154881f075a9e39f3 |     17     | /cyq19QvUnKoR5gxlsW9l5trDm9+WYTS7Vhxv1cn9iE= |  AddressOwner   |      0x2::coin::Coin<0x2::sui::SUI>     
+2022-07-12T00:11:04.529262Z  INFO sui::wallet_commands:  0x8b041856e90b9ca3b5bd8ea80c1d55747c0b060d |     0      | 1QJbWbfKg8cwgKLR8tKBddd7E11HlnoDaiM+95zRyHg= |  AddressOwner   |      0x2::coin::Coin<0x2::sui::SUI>     
+2022-07-12T00:11:04.529289Z  INFO sui::wallet_commands:  0xe93c87ab51614272f8541d5d8103e62d765d72c4 |     0      | u45FUM5vioWxGK4DBa+EuHlMJ2o6Qo7QMumKtX9hhus= |  AddressOwner   |      0x2::coin::Coin<0x2::sui::SUI>     
+2022-07-12T00:11:04.529307Z  INFO sui::wallet_commands:  0xe98fb23c9ed244d73e42b8e761458ac631a15369 |     3      | hVkA39StqfWy6Z8xj73RGppaJnCt0zINX7a/P7R8gSI= |  AddressOwner   | 0xf639d3382e05f92d958492609dec6e394576206a::marketplace::Listing<0x2::devnet_nft::DevNetNFT, 0x2::sui::SUI>
+2022-07-12T00:11:04.529322Z  INFO sui::wallet_commands:  0xecb564bc44e29b43bdd16626ed5f83bd12d99cfc |     0      | IlfGzUYt7Qxw4F3y0hnORfouobDPiu30S4Ypr1KY/4c= |  AddressOwner   |      0x2::coin::Coin<0x2::sui::SUI>     
+2022-07-12T00:11:04.529348Z  INFO sui::wallet_commands:  0xf6fefbc2dd2fdfb806aead2c599ca1c0ca990ce1 |     0      | nsoIV23GeWpo/dYF0m/PYD3qtK+fRCIMkGLHTYayVLo= |  AddressOwner   |      0x2::coin::Coin<0x2::sui::SUI>     
+2022-07-12T00:11:04.529364Z  INFO sui::wallet_commands: Showing 7 results.
+2022-07-12T00:11:04.529689Z  INFO sui_storage::lock_service: LockService command loop stopped, the sender on other end hung up/dropped
+2022-07-12T00:11:04.529704Z  INFO sui_storage::lock_service: LockService queries loop stopped, the sender on other end hung up/dropped

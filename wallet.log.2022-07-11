@@ -1,0 +1,579 @@
+2022-07-11T21:34:14.373333Z  INFO sui_storage::lock_service: LockService command processing loop started
+2022-07-11T21:34:14.373335Z  INFO sui_storage::lock_service: LockService queries processing loop started
+2022-07-11T21:34:14.518147Z  INFO sui::wallet_commands:                  Object ID                  |  Version   |  Gas Value 
+2022-07-11T21:34:14.518181Z  INFO sui::wallet_commands: ----------------------------------------------------------------------
+2022-07-11T21:34:14.518217Z  INFO sui::wallet_commands:  0x3ee99e3db89e1436967d822e93fce1abfdf72b21 |     0      |   100000   
+2022-07-11T21:34:14.518232Z  INFO sui::wallet_commands:  0x4ab7b8d751adb365fb4889a0f72c4b3d1955e188 |     0      |   100000   
+2022-07-11T21:34:14.518237Z  INFO sui::wallet_commands:  0x5584433f872adf7222e423e53a79843391a73175 |     0      |   100000   
+2022-07-11T21:34:14.518240Z  INFO sui::wallet_commands:  0x75f265e58cd7742cc5b2b2cf0681deda97fbdec0 |     0      |   100000   
+2022-07-11T21:34:14.518241Z  INFO sui::wallet_commands:  0xe3ae80de718f45fa9ddd3421be4c9d8b0159bb47 |     0      |   100000   
+2022-07-11T21:34:14.518883Z  INFO sui_storage::lock_service: LockService command loop stopped, the sender on other end hung up/dropped
+2022-07-11T21:34:14.518896Z  INFO sui_storage::lock_service: LockService queries loop stopped, the sender on other end hung up/dropped
+2022-07-11T21:34:22.859861Z  INFO sui_storage::lock_service: LockService command processing loop started
+2022-07-11T21:34:22.860419Z  INFO sui_storage::lock_service: LockService queries processing loop started
+2022-07-11T21:34:23.098899Z  INFO sui::wallet_commands: [1mSuccessfully created an ExampleNFT:[0m
+2022-07-11T21:34:23.098923Z  INFO sui::wallet_commands: 
+2022-07-11T21:34:23.098927Z  INFO sui::wallet_commands: [1m----- Move Object (0x140b09610204c29dc3a270bd70c381a6ab5ee471[1]) -----[0m
+2022-07-11T21:34:23.098929Z  INFO sui::wallet_commands: [1;90mOwner[0m: Account Address ( 0x8c00cdaf1245ffcd3d0bac3beab4c531c116e4fd )
+2022-07-11T21:34:23.098931Z  INFO sui::wallet_commands: [1;90mVersion[0m: 1
+2022-07-11T21:34:23.098944Z  INFO sui::wallet_commands: [1;90mStorage Rebate[0m: 25
+2022-07-11T21:34:23.098949Z  INFO sui::wallet_commands: [1;90mPrevious Transaction[0m: aU9OPTPNza60jhZ/aIOGz21jhYshCSH1CYR4Tka3K0g=
+2022-07-11T21:34:23.098953Z  INFO sui::wallet_commands: [1m----- Data -----[0m
+2022-07-11T21:34:23.098956Z  INFO sui::wallet_commands: [1;90mtype[0m: 0x2::devnet_nft::DevNetNFT
+2022-07-11T21:34:23.098958Z  INFO sui::wallet_commands: [1;90mdescription[0m: An NFT created by the wallet Command Line Tool
+2022-07-11T21:34:23.098971Z  INFO sui::wallet_commands: [1;90mid[0m: 0x140b09610204c29dc3a270bd70c381a6ab5ee471[1]
+2022-07-11T21:34:23.098975Z  INFO sui::wallet_commands: [1;90mname[0m: Example NFT
+2022-07-11T21:34:23.098977Z  INFO sui::wallet_commands: [1;90murl[0m: ipfs://bafkreibngqhl3gaa7daob4i2vccziay2jjlp435cf66vhono7nrvww53ty
+2022-07-11T21:34:23.099333Z  INFO sui_storage::lock_service: LockService command loop stopped, the sender on other end hung up/dropped
+2022-07-11T21:34:23.099373Z  INFO sui_storage::lock_service: LockService queries loop stopped, the sender on other end hung up/dropped
+2022-07-11T21:34:59.099817Z  INFO sui_storage::lock_service: LockService command processing loop started
+2022-07-11T21:34:59.099827Z  INFO sui_storage::lock_service: LockService queries processing loop started
+2022-07-11T21:34:59.384959Z  INFO sui::wallet_commands: [1m----- Certificate ----[0m
+2022-07-11T21:34:59.384984Z  INFO sui::wallet_commands: Transaction Hash: Wvcar39iun4DyyVmoFqYaB5xGPzrhUDy3SzOpeRj+zY=
+2022-07-11T21:34:59.384988Z  INFO sui::wallet_commands: Transaction Signature: Xr4I+s5gJGUwjfMJcrVB+hNlkEoBvS43/ABWFWTd3vUxkaK2rUTBPwzjXg20bUi7lzs2bfm7x60JTFF1a0D1Aw==@Fm6ityOa6QiNN2WMHCwl1yMAz59RriQFo5wUPjZeVD4=
+2022-07-11T21:34:59.384990Z  INFO sui::wallet_commands: Signed Authorities : [k#9867e30133e95a7ca201bb184600cd7b7837244b1a3632559c77eeb6eaa4a2b7, k#9fdea20812b841bc637c5fbf7444cb07e297dbe5f837d2070693d950136783a2, k#b7ef2fee0c8689ae161af7e9ce19c958b66e1f413ccf260905e286981efa3d0b]
+2022-07-11T21:34:59.384992Z  INFO sui::wallet_commands: Transaction Kind : Publish
+2022-07-11T21:34:59.384994Z  INFO sui::wallet_commands: [1m----- Publish Results ----[0m
+2022-07-11T21:34:59.384995Z  INFO sui::wallet_commands: [1mThe newly published package object ID: 0x017a291af47b6907a33c7a021beebc9b0220ed68
+2022-07-11T21:34:59.384996Z  INFO sui::wallet_commands: [0m
+2022-07-11T21:34:59.384998Z  INFO sui::wallet_commands: Updated Gas : Coin { id: 0x3ee99e3db89e1436967d822e93fce1abfdf72b21, value: 98627 }
+2022-07-11T21:34:59.385386Z  INFO sui_storage::lock_service: LockService queries loop stopped, the sender on other end hung up/dropped
+2022-07-11T21:34:59.385402Z  INFO sui_storage::lock_service: LockService command loop stopped, the sender on other end hung up/dropped
+2022-07-11T21:35:14.611633Z  INFO sui_storage::lock_service: LockService command processing loop started
+2022-07-11T21:35:14.611636Z  INFO sui_storage::lock_service: LockService queries processing loop started
+2022-07-11T21:35:14.774347Z  INFO sui::wallet_commands: [1m----- Certificate ----[0m
+2022-07-11T21:35:14.774371Z  INFO sui::wallet_commands: Transaction Hash: e//fdcxbbtbL6/qQAvaBhljET9PVlauTtXaHI+NgiUY=
+2022-07-11T21:35:14.774374Z  INFO sui::wallet_commands: Transaction Signature: whpohNbM66Mu6XAokGtUaYODXEM4nBc6p90UcJVoyysk9BxLGMwsKc9L74YihL5ORIv+SMgsfOw3ahiIaYsBAw==@Fm6ityOa6QiNN2WMHCwl1yMAz59RriQFo5wUPjZeVD4=
+2022-07-11T21:35:14.774377Z  INFO sui::wallet_commands: Signed Authorities : [k#8a96005894022178c73c86d24f55637712805840325e6d93823851da10e0872d, k#9867e30133e95a7ca201bb184600cd7b7837244b1a3632559c77eeb6eaa4a2b7, k#9fdea20812b841bc637c5fbf7444cb07e297dbe5f837d2070693d950136783a2]
+2022-07-11T21:35:14.774391Z  INFO sui::wallet_commands: Transaction Kind : Call
+2022-07-11T21:35:14.774396Z  INFO sui::wallet_commands: Package ID : 0x17a291af47b6907a33c7a021beebc9b0220ed68
+2022-07-11T21:35:14.774399Z  INFO sui::wallet_commands: Module : marketplace
+2022-07-11T21:35:14.774403Z  INFO sui::wallet_commands: Function : create
+2022-07-11T21:35:14.774404Z  INFO sui::wallet_commands: Arguments : []
+2022-07-11T21:35:14.774406Z  INFO sui::wallet_commands: Type Arguments : []
+2022-07-11T21:35:14.774407Z  INFO sui::wallet_commands: [1m----- Transaction Effects ----[0m
+2022-07-11T21:35:14.774408Z  INFO sui::wallet_commands: Status : Success
+2022-07-11T21:35:14.774410Z  INFO sui::wallet_commands: Created Objects:
+2022-07-11T21:35:14.774411Z  INFO sui::wallet_commands:   - ID: 0x87c7b8a38a9a928a273bd28a5d9889ba8157ac19 , Owner: Shared
+2022-07-11T21:35:14.774425Z  INFO sui::wallet_commands:   - ID: 0xba1f2de67ffaa28ce5561e82ee7d93d59067bd8f , Owner: Object ID: ( 0x87c7b8a38a9a928a273bd28a5d9889ba8157ac19 )
+2022-07-11T21:35:14.774429Z  INFO sui::wallet_commands: Mutated Objects:
+2022-07-11T21:35:14.774432Z  INFO sui::wallet_commands:   - ID: 0x3ee99e3db89e1436967d822e93fce1abfdf72b21 , Owner: Account Address ( 0x8c00cdaf1245ffcd3d0bac3beab4c531c116e4fd )
+2022-07-11T21:35:14.774742Z  INFO sui_storage::lock_service: LockService command loop stopped, the sender on other end hung up/dropped
+2022-07-11T21:35:14.774768Z  INFO sui_storage::lock_service: LockService queries loop stopped, the sender on other end hung up/dropped
+2022-07-11T21:35:42.465648Z  INFO sui_storage::lock_service: LockService queries processing loop started
+2022-07-11T21:35:42.465648Z  INFO sui_storage::lock_service: LockService command processing loop started
+2022-07-11T21:35:42.893173Z  INFO sui::wallet_commands: [1m----- Certificate ----[0m
+2022-07-11T21:35:42.893198Z  INFO sui::wallet_commands: Transaction Hash: Hmj2QFhOZ8s77H+IuUu1nTr7L0FZCQ1X/xA67S+CwHc=
+2022-07-11T21:35:42.893201Z  INFO sui::wallet_commands: Transaction Signature: oDfgdxQ20lu6fkHSR+Vpnqn6x8FP/c5HBpz+PMXLqPO93gvdSfmMIvmiSmrEeZk3AeYuC2vPmr0deybcb4cqAA==@Fm6ityOa6QiNN2WMHCwl1yMAz59RriQFo5wUPjZeVD4=
+2022-07-11T21:35:42.893203Z  INFO sui::wallet_commands: Signed Authorities : [k#8a96005894022178c73c86d24f55637712805840325e6d93823851da10e0872d, k#9fdea20812b841bc637c5fbf7444cb07e297dbe5f837d2070693d950136783a2, k#b7ef2fee0c8689ae161af7e9ce19c958b66e1f413ccf260905e286981efa3d0b]
+2022-07-11T21:35:42.893205Z  INFO sui::wallet_commands: Transaction Kind : Call
+2022-07-11T21:35:42.893220Z  INFO sui::wallet_commands: Package ID : 0x17a291af47b6907a33c7a021beebc9b0220ed68
+2022-07-11T21:35:42.893225Z  INFO sui::wallet_commands: Module : marketplace
+2022-07-11T21:35:42.893228Z  INFO sui::wallet_commands: Function : list
+2022-07-11T21:35:42.893231Z  INFO sui::wallet_commands: Arguments : ["0x87c7b8a38a9a928a273bd28a5d9889ba8157ac19", "0xba1f2de67ffaa28ce5561e82ee7d93d59067bd8f", "0x140b09610204c29dc3a270bd70c381a6ab5ee471", 100]
+2022-07-11T21:35:42.893234Z  INFO sui::wallet_commands: Type Arguments : ["0x2::devnet_nft::DevNetNFT", "0x2::sui::SUI"]
+2022-07-11T21:35:42.893235Z  INFO sui::wallet_commands: [1m----- Transaction Effects ----[0m
+2022-07-11T21:35:42.893248Z  INFO sui::wallet_commands: Status : Success
+2022-07-11T21:35:42.893252Z  INFO sui::wallet_commands: Created Objects:
+2022-07-11T21:35:42.893254Z  INFO sui::wallet_commands:   - ID: 0xf972db9e0e052fedeb0559764dc6faf663061178 , Owner: Object ID: ( 0xba1f2de67ffaa28ce5561e82ee7d93d59067bd8f )
+2022-07-11T21:35:42.893256Z  INFO sui::wallet_commands: Mutated Objects:
+2022-07-11T21:35:42.893260Z  INFO sui::wallet_commands:   - ID: 0x140b09610204c29dc3a270bd70c381a6ab5ee471 , Owner: Object ID: ( 0x87c7b8a38a9a928a273bd28a5d9889ba8157ac19 )
+2022-07-11T21:35:42.893261Z  INFO sui::wallet_commands:   - ID: 0x3ee99e3db89e1436967d822e93fce1abfdf72b21 , Owner: Account Address ( 0x8c00cdaf1245ffcd3d0bac3beab4c531c116e4fd )
+2022-07-11T21:35:42.893276Z  INFO sui::wallet_commands:   - ID: 0x87c7b8a38a9a928a273bd28a5d9889ba8157ac19 , Owner: Shared
+2022-07-11T21:35:42.893280Z  INFO sui::wallet_commands:   - ID: 0xba1f2de67ffaa28ce5561e82ee7d93d59067bd8f , Owner: Object ID: ( 0x87c7b8a38a9a928a273bd28a5d9889ba8157ac19 )
+2022-07-11T21:35:42.893679Z  INFO sui_storage::lock_service: LockService command loop stopped, the sender on other end hung up/dropped
+2022-07-11T21:35:42.893691Z  INFO sui_storage::lock_service: LockService queries loop stopped, the sender on other end hung up/dropped
+2022-07-11T21:37:04.885566Z  INFO sui_storage::lock_service: LockService queries processing loop started
+2022-07-11T21:37:04.885574Z  INFO sui_storage::lock_service: LockService command processing loop started
+2022-07-11T21:37:05.263425Z  INFO sui_storage::lock_service: LockService command loop stopped, the sender on other end hung up/dropped
+2022-07-11T21:37:05.263438Z  INFO sui_storage::lock_service: LockService queries loop stopped, the sender on other end hung up/dropped
+2022-07-11T22:59:05.526911Z  INFO sui_storage::lock_service: LockService queries processing loop started
+2022-07-11T22:59:05.526909Z  INFO sui_storage::lock_service: LockService command processing loop started
+2022-07-11T22:59:05.594154Z  INFO sui::wallet_commands: Active gateway switched to https://gateway.devnet.sui.io:443/
+2022-07-11T22:59:05.594675Z  INFO sui_storage::lock_service: LockService command loop stopped, the sender on other end hung up/dropped
+2022-07-11T22:59:05.594685Z  INFO sui_storage::lock_service: LockService queries loop stopped, the sender on other end hung up/dropped
+2022-07-11T22:59:19.283632Z  INFO sui::wallet_commands:                  Object ID                  |  Version   |                    Digest                    |   Owner Type    |               Object Type               
+2022-07-11T22:59:19.283700Z  INFO sui::wallet_commands: ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2022-07-11T22:59:19.283706Z  INFO sui::wallet_commands: Showing 0 results.
+2022-07-11T22:59:26.992302Z  INFO sui::wallet_commands: Showing 5 results.
+2022-07-11T22:59:26.992345Z  INFO sui::wallet_commands: 0x8c00cdaf1245ffcd3d0bac3beab4c531c116e4fd
+2022-07-11T22:59:26.992352Z  INFO sui::wallet_commands: 0xed0d1690acdfc3503f575338036eed143e021e20
+2022-07-11T22:59:26.992353Z  INFO sui::wallet_commands: 0xf7b5c7c91f3865f69fe99363288a6c613efc87b8
+2022-07-11T22:59:26.992376Z  INFO sui::wallet_commands: 0x2471421efed451b518b3a8822ae3ed25902ec138
+2022-07-11T22:59:26.992380Z  INFO sui::wallet_commands: 0x61729cdefafc192610537334f6eabf5fccc0f69e
+2022-07-11T22:59:33.446704Z  INFO sui::wallet_commands: 0x8c00cdaf1245ffcd3d0bac3beab4c531c116e4fd
+2022-07-11T23:00:19.120483Z  INFO sui::wallet_commands: [1m----- Certificate ----[0m
+2022-07-11T23:00:19.120526Z  INFO sui::wallet_commands: Transaction Hash: evjKmZDJWZTWpPdm6SPgA6kMQlxfmU3wJCPtIaf+O+g=
+2022-07-11T23:00:19.120543Z  INFO sui::wallet_commands: Transaction Signature: nfmbriEDHOoq+mBCXETSX+Lk60cMIPKAEPG3/JR2SZVidWlejJtsBcjbkP4U0UN2/9Cm4Wx8zx8q/zmcmaOSCg==@Fm6ityOa6QiNN2WMHCwl1yMAz59RriQFo5wUPjZeVD4=
+2022-07-11T23:00:19.120548Z  INFO sui::wallet_commands: Signed Authorities : [k#1584ef2b677d6f5e96b57dac2744e9278aa24e117c7bfd6ac00bf43c1129c7fd, k#e97638a9e10b9cc46d85b81191a60a6a6fcae63dacd811c07502db9c5cfc55b5, k#89cafd721eeb1b13483d5fb0968500e78103e8146b45edb30d93781d946d0aeb]
+2022-07-11T23:00:19.120550Z  INFO sui::wallet_commands: Transaction Kind : Publish
+2022-07-11T23:00:19.120552Z  INFO sui::wallet_commands: [1m----- Publish Results ----[0m
+2022-07-11T23:00:19.120553Z  INFO sui::wallet_commands: [1mThe newly published package object ID: 0x0dd13314c892ea93d6542b507619fcb866f3e259
+2022-07-11T23:00:19.120555Z  INFO sui::wallet_commands: [0m
+2022-07-11T23:00:19.120558Z  INFO sui::wallet_commands: Updated Gas : Coin { id: 0x071d0725dcfb14c691fc9589221464260bbb8383, value: 49419 }
+2022-07-11T23:00:29.782585Z  INFO sui::wallet_commands: [1m----- Certificate ----[0m
+2022-07-11T23:00:29.782629Z  INFO sui::wallet_commands: Transaction Hash: Gd0TxDyTAxLhb+Ha9/VmjEF2+e5AAtzS8uPXBqsMrIE=
+2022-07-11T23:00:29.782647Z  INFO sui::wallet_commands: Transaction Signature: LZcnQciDhQguXLjBel9TwSZ2fXNaEv6MlD4YfuzF7Dkwns6A0aYEakq/ihm9JuOLolhdqqdlvZBTo47DEDtsBw==@Fm6ityOa6QiNN2WMHCwl1yMAz59RriQFo5wUPjZeVD4=
+2022-07-11T23:00:29.782652Z  INFO sui::wallet_commands: Signed Authorities : [k#1584ef2b677d6f5e96b57dac2744e9278aa24e117c7bfd6ac00bf43c1129c7fd, k#e97638a9e10b9cc46d85b81191a60a6a6fcae63dacd811c07502db9c5cfc55b5, k#89cafd721eeb1b13483d5fb0968500e78103e8146b45edb30d93781d946d0aeb]
+2022-07-11T23:00:29.782654Z  INFO sui::wallet_commands: Transaction Kind : Call
+2022-07-11T23:00:29.782655Z  INFO sui::wallet_commands: Package ID : 0xdd13314c892ea93d6542b507619fcb866f3e259
+2022-07-11T23:00:29.782657Z  INFO sui::wallet_commands: Module : marketplace
+2022-07-11T23:00:29.782658Z  INFO sui::wallet_commands: Function : create
+2022-07-11T23:00:29.782661Z  INFO sui::wallet_commands: Arguments : []
+2022-07-11T23:00:29.782662Z  INFO sui::wallet_commands: Type Arguments : []
+2022-07-11T23:00:29.782664Z  INFO sui::wallet_commands: [1m----- Transaction Effects ----[0m
+2022-07-11T23:00:29.782666Z  INFO sui::wallet_commands: Status : Success
+2022-07-11T23:00:29.782669Z  INFO sui::wallet_commands: Created Objects:
+2022-07-11T23:00:29.782683Z  INFO sui::wallet_commands:   - ID: 0x6dc2e398e8f9fb320239e52cc142d33f47c4e14f , Owner: Shared
+2022-07-11T23:00:29.782698Z  INFO sui::wallet_commands:   - ID: 0x70ec2f6bb897bd7a74a42aeb1c33051d96b2c538 , Owner: Object ID: ( 0x6dc2e398e8f9fb320239e52cc142d33f47c4e14f )
+2022-07-11T23:00:29.782732Z  INFO sui::wallet_commands: Mutated Objects:
+2022-07-11T23:00:29.782737Z  INFO sui::wallet_commands:   - ID: 0x071d0725dcfb14c691fc9589221464260bbb8383 , Owner: Account Address ( 0x8c00cdaf1245ffcd3d0bac3beab4c531c116e4fd )
+2022-07-11T23:00:55.153296Z  INFO sui::wallet_commands: [1mSuccessfully created an ExampleNFT:[0m
+2022-07-11T23:00:55.153342Z  INFO sui::wallet_commands: 
+2022-07-11T23:00:55.153349Z  INFO sui::wallet_commands: [1m----- Move Object (0x78c5c79222221e8289034362443d8809569ecf8b[1]) -----[0m
+2022-07-11T23:00:55.153351Z  INFO sui::wallet_commands: [1;90mOwner[0m: Account Address ( 0x8c00cdaf1245ffcd3d0bac3beab4c531c116e4fd )
+2022-07-11T23:00:55.153353Z  INFO sui::wallet_commands: [1;90mVersion[0m: 1
+2022-07-11T23:00:55.153367Z  INFO sui::wallet_commands: [1;90mStorage Rebate[0m: 25
+2022-07-11T23:00:55.153372Z  INFO sui::wallet_commands: [1;90mPrevious Transaction[0m: 60EaGmXgZiAIuQIxVHPYE9R2W0Q1KqcDyAa7cNrE938=
+2022-07-11T23:00:55.153375Z  INFO sui::wallet_commands: [1m----- Data -----[0m
+2022-07-11T23:00:55.153377Z  INFO sui::wallet_commands: [1;90mtype[0m: 0x2::devnet_nft::DevNetNFT
+2022-07-11T23:00:55.153378Z  INFO sui::wallet_commands: [1;90mdescription[0m: An NFT created by the wallet Command Line Tool
+2022-07-11T23:00:55.153380Z  INFO sui::wallet_commands: [1;90mid[0m: 0x78c5c79222221e8289034362443d8809569ecf8b[1]
+2022-07-11T23:00:55.153381Z  INFO sui::wallet_commands: [1;90mname[0m: Example NFT
+2022-07-11T23:00:55.153383Z  INFO sui::wallet_commands: [1;90murl[0m: ipfs://bafkreibngqhl3gaa7daob4i2vccziay2jjlp435cf66vhono7nrvww53ty
+2022-07-11T23:01:44.067901Z  INFO sui::wallet_commands: 0x8c00cdaf1245ffcd3d0bac3beab4c531c116e4fd
+2022-07-11T23:04:17.414033Z  INFO sui::wallet_commands: Active gateway switched to local
+2022-07-11T23:05:06.989813Z  INFO sui_storage::lock_service: LockService command processing loop started
+2022-07-11T23:05:06.989815Z  INFO sui_storage::lock_service: LockService queries processing loop started
+2022-07-11T23:05:07.132603Z  INFO sui::wallet_commands:                  Object ID                  |  Version   |                    Digest                    |   Owner Type    |               Object Type               
+2022-07-11T23:05:07.132640Z  INFO sui::wallet_commands: ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2022-07-11T23:05:07.132656Z  INFO sui::wallet_commands:  0x76b62992826133093c8078b154881f075a9e39f3 |     0      | G8uqLBXzchodGYfY015QdvVTFrNro48RhLWGPRfKPjg= |  AddressOwner   |      0x2::coin::Coin<0x2::sui::SUI>     
+2022-07-11T23:05:07.132661Z  INFO sui::wallet_commands:  0x8b041856e90b9ca3b5bd8ea80c1d55747c0b060d |     0      | 1QJbWbfKg8cwgKLR8tKBddd7E11HlnoDaiM+95zRyHg= |  AddressOwner   |      0x2::coin::Coin<0x2::sui::SUI>     
+2022-07-11T23:05:07.132662Z  INFO sui::wallet_commands:  0xe93c87ab51614272f8541d5d8103e62d765d72c4 |     0      | u45FUM5vioWxGK4DBa+EuHlMJ2o6Qo7QMumKtX9hhus= |  AddressOwner   |      0x2::coin::Coin<0x2::sui::SUI>     
+2022-07-11T23:05:07.132664Z  INFO sui::wallet_commands:  0xecb564bc44e29b43bdd16626ed5f83bd12d99cfc |     0      | IlfGzUYt7Qxw4F3y0hnORfouobDPiu30S4Ypr1KY/4c= |  AddressOwner   |      0x2::coin::Coin<0x2::sui::SUI>     
+2022-07-11T23:05:07.132679Z  INFO sui::wallet_commands:  0xf6fefbc2dd2fdfb806aead2c599ca1c0ca990ce1 |     0      | nsoIV23GeWpo/dYF0m/PYD3qtK+fRCIMkGLHTYayVLo= |  AddressOwner   |      0x2::coin::Coin<0x2::sui::SUI>     
+2022-07-11T23:05:07.132683Z  INFO sui::wallet_commands: Showing 5 results.
+2022-07-11T23:05:07.132994Z  INFO sui_storage::lock_service: LockService queries loop stopped, the sender on other end hung up/dropped
+2022-07-11T23:05:07.132997Z  INFO sui_storage::lock_service: LockService command loop stopped, the sender on other end hung up/dropped
+2022-07-11T23:05:20.564702Z  INFO sui_storage::lock_service: LockService command processing loop started
+2022-07-11T23:05:20.564713Z  INFO sui_storage::lock_service: LockService queries processing loop started
+2022-07-11T23:05:20.756727Z  INFO sui::wallet_commands: [1mSuccessfully created an ExampleNFT:[0m
+2022-07-11T23:05:20.756742Z  INFO sui::wallet_commands: 
+2022-07-11T23:05:20.756744Z  INFO sui::wallet_commands: [1m----- Move Object (0xd8500c17d231276cab3098c818ef84b7ecb134f2[1]) -----[0m
+2022-07-11T23:05:20.756746Z  INFO sui::wallet_commands: [1;90mOwner[0m: Account Address ( 0x99793ecd184ed8841bf7dd5473e5eaaecf691ee2 )
+2022-07-11T23:05:20.756748Z  INFO sui::wallet_commands: [1;90mVersion[0m: 1
+2022-07-11T23:05:20.756749Z  INFO sui::wallet_commands: [1;90mStorage Rebate[0m: 25
+2022-07-11T23:05:20.756750Z  INFO sui::wallet_commands: [1;90mPrevious Transaction[0m: 5i1FJxHewonnxG+LxTBaNgr9ZfACaIwmYanYVOZIECk=
+2022-07-11T23:05:20.756752Z  INFO sui::wallet_commands: [1m----- Data -----[0m
+2022-07-11T23:05:20.756753Z  INFO sui::wallet_commands: [1;90mtype[0m: 0x2::devnet_nft::DevNetNFT
+2022-07-11T23:05:20.756754Z  INFO sui::wallet_commands: [1;90mdescription[0m: An NFT created by the wallet Command Line Tool
+2022-07-11T23:05:20.756756Z  INFO sui::wallet_commands: [1;90mid[0m: 0xd8500c17d231276cab3098c818ef84b7ecb134f2[1]
+2022-07-11T23:05:20.756759Z  INFO sui::wallet_commands: [1;90mname[0m: Example NFT
+2022-07-11T23:05:20.756763Z  INFO sui::wallet_commands: [1;90murl[0m: ipfs://bafkreibngqhl3gaa7daob4i2vccziay2jjlp435cf66vhono7nrvww53ty
+2022-07-11T23:05:20.757051Z  INFO sui_storage::lock_service: LockService command loop stopped, the sender on other end hung up/dropped
+2022-07-11T23:05:20.757118Z  INFO sui_storage::lock_service: LockService queries loop stopped, the sender on other end hung up/dropped
+2022-07-11T23:06:00.319791Z  INFO sui_storage::lock_service: LockService command processing loop started
+2022-07-11T23:06:00.319797Z  INFO sui_storage::lock_service: LockService queries processing loop started
+2022-07-11T23:06:00.594324Z  INFO sui::wallet_commands: [1m----- Certificate ----[0m
+2022-07-11T23:06:00.594351Z  INFO sui::wallet_commands: Transaction Hash: KM+gn/Z1coVmmDfH9NOmgRxEwdK2ZBH+HMiLGBui5y0=
+2022-07-11T23:06:00.594368Z  INFO sui::wallet_commands: Transaction Signature: OI+LhkFkMcQ6nYc8COk/YT5e6D/A5zzfWv2XlgoDH0QKTPXXj+qGr40r2dCmNVWZmDh2rfkIIzGjiTD9+qVaDA==@W1Ik/BWVpG5YGaipdp+q9gmVzGVGkL9iY1wV8kPjjBg=
+2022-07-11T23:06:00.594385Z  INFO sui::wallet_commands: Signed Authorities : [k#588af11bae1bba1c43407412848d3f85bf6d213be3d59576b71b0af774040165, k#07bf0bd6ac5093481e44d014f3fea78a612a81e3ad92bcf1cedd6b808ea3882d, k#6a458c8968ea1874bfb3f00c275fb18d50938ea6395825bac66682d930f4e990]
+2022-07-11T23:06:00.594390Z  INFO sui::wallet_commands: Transaction Kind : Publish
+2022-07-11T23:06:00.594394Z  INFO sui::wallet_commands: [1m----- Publish Results ----[0m
+2022-07-11T23:06:00.594395Z  INFO sui::wallet_commands: [1mThe newly published package object ID: 0x62a167bd994df9ba16572ec0feae6c3514e20b29
+2022-07-11T23:06:00.594397Z  INFO sui::wallet_commands: [0m
+2022-07-11T23:06:00.594410Z  INFO sui::wallet_commands: Updated Gas : Coin { id: 0x76b62992826133093c8078b154881f075a9e39f3, value: 98627 }
+2022-07-11T23:06:00.594807Z  INFO sui_storage::lock_service: LockService command loop stopped, the sender on other end hung up/dropped
+2022-07-11T23:06:00.594821Z  INFO sui_storage::lock_service: LockService queries loop stopped, the sender on other end hung up/dropped
+2022-07-11T23:06:11.981946Z  INFO sui_storage::lock_service: LockService command processing loop started
+2022-07-11T23:06:11.981982Z  INFO sui_storage::lock_service: LockService queries processing loop started
+2022-07-11T23:06:12.134340Z  INFO sui::wallet_commands: [1m----- Certificate ----[0m
+2022-07-11T23:06:12.134365Z  INFO sui::wallet_commands: Transaction Hash: oJK/GbzI89NmBJQ5LFH+1nnrswN0kxQjtDdxhG/Trg4=
+2022-07-11T23:06:12.134368Z  INFO sui::wallet_commands: Transaction Signature: VsdEbkl0WYYL9r3FNxGAQBiyBgnqeevjB86QXzLvmmn9uXuIExrTO1kUYh+UtoUlnZYzdfsQacqwdN8ItglCDg==@W1Ik/BWVpG5YGaipdp+q9gmVzGVGkL9iY1wV8kPjjBg=
+2022-07-11T23:06:12.134371Z  INFO sui::wallet_commands: Signed Authorities : [k#6a458c8968ea1874bfb3f00c275fb18d50938ea6395825bac66682d930f4e990, k#588af11bae1bba1c43407412848d3f85bf6d213be3d59576b71b0af774040165, k#07bf0bd6ac5093481e44d014f3fea78a612a81e3ad92bcf1cedd6b808ea3882d]
+2022-07-11T23:06:12.134373Z  INFO sui::wallet_commands: Transaction Kind : Call
+2022-07-11T23:06:12.134387Z  INFO sui::wallet_commands: Package ID : 0x62a167bd994df9ba16572ec0feae6c3514e20b29
+2022-07-11T23:06:12.134393Z  INFO sui::wallet_commands: Module : marketplace
+2022-07-11T23:06:12.134395Z  INFO sui::wallet_commands: Function : create
+2022-07-11T23:06:12.134397Z  INFO sui::wallet_commands: Arguments : []
+2022-07-11T23:06:12.134400Z  INFO sui::wallet_commands: Type Arguments : []
+2022-07-11T23:06:12.134402Z  INFO sui::wallet_commands: [1m----- Transaction Effects ----[0m
+2022-07-11T23:06:12.134403Z  INFO sui::wallet_commands: Status : Success
+2022-07-11T23:06:12.134405Z  INFO sui::wallet_commands: Created Objects:
+2022-07-11T23:06:12.134406Z  INFO sui::wallet_commands:   - ID: 0xa8d3b5ebccf0358215fa8b292d3a9e74c6862b92 , Owner: Object ID: ( 0xa960fae319c8595e841552e8364b986288981687 )
+2022-07-11T23:06:12.134408Z  INFO sui::wallet_commands:   - ID: 0xa960fae319c8595e841552e8364b986288981687 , Owner: Shared
+2022-07-11T23:06:12.134409Z  INFO sui::wallet_commands: Mutated Objects:
+2022-07-11T23:06:12.134424Z  INFO sui::wallet_commands:   - ID: 0x76b62992826133093c8078b154881f075a9e39f3 , Owner: Account Address ( 0x99793ecd184ed8841bf7dd5473e5eaaecf691ee2 )
+2022-07-11T23:06:12.134721Z  INFO sui_storage::lock_service: LockService command loop stopped, the sender on other end hung up/dropped
+2022-07-11T23:06:12.134733Z  INFO sui_storage::lock_service: LockService queries loop stopped, the sender on other end hung up/dropped
+2022-07-11T23:06:59.339450Z  INFO sui_storage::lock_service: LockService command processing loop started
+2022-07-11T23:06:59.339487Z  INFO sui_storage::lock_service: LockService queries processing loop started
+2022-07-11T23:06:59.822941Z  INFO sui::wallet_commands: [1m----- Certificate ----[0m
+2022-07-11T23:06:59.823002Z  INFO sui::wallet_commands: Transaction Hash: OnEKdAuKTDW80sQrsJqvD2Ets3R81TBvX0BcyH8JoQE=
+2022-07-11T23:06:59.823019Z  INFO sui::wallet_commands: Transaction Signature: Jty0b2yo+rPMJB4nHT7WLulC3KTMkl1WzlSDfG8sGtkCDFoC3oBD5D8tU3xoNfozxHwp93Byb2471tgPZB9zDA==@W1Ik/BWVpG5YGaipdp+q9gmVzGVGkL9iY1wV8kPjjBg=
+2022-07-11T23:06:59.823040Z  INFO sui::wallet_commands: Signed Authorities : [k#58ee6beaab8b6d280505a7e00fa0765c436ba647277123ea5a01a1f01b2c8d1d, k#07bf0bd6ac5093481e44d014f3fea78a612a81e3ad92bcf1cedd6b808ea3882d, k#6a458c8968ea1874bfb3f00c275fb18d50938ea6395825bac66682d930f4e990]
+2022-07-11T23:06:59.823042Z  INFO sui::wallet_commands: Transaction Kind : Call
+2022-07-11T23:06:59.823045Z  INFO sui::wallet_commands: Package ID : 0x62a167bd994df9ba16572ec0feae6c3514e20b29
+2022-07-11T23:06:59.823060Z  INFO sui::wallet_commands: Module : marketplace
+2022-07-11T23:06:59.823087Z  INFO sui::wallet_commands: Function : list
+2022-07-11T23:06:59.823105Z  INFO sui::wallet_commands: Arguments : ["0xa960fae319c8595e841552e8364b986288981687", "0xa8d3b5ebccf0358215fa8b292d3a9e74c6862b92", "0xd8500c17d231276cab3098c818ef84b7ecb134f2", 100]
+2022-07-11T23:06:59.823120Z  INFO sui::wallet_commands: Type Arguments : ["0x2::devnet_nft::DevNetNFT", "0x2::sui::SUI"]
+2022-07-11T23:06:59.823136Z  INFO sui::wallet_commands: [1m----- Transaction Effects ----[0m
+2022-07-11T23:06:59.823139Z  INFO sui::wallet_commands: Status : Success
+2022-07-11T23:06:59.823141Z  INFO sui::wallet_commands: Created Objects:
+2022-07-11T23:06:59.823142Z  INFO sui::wallet_commands:   - ID: 0x4aa7fc86332c8dd9c536a7fe8f0455a67b2fc6b7 , Owner: Object ID: ( 0xa8d3b5ebccf0358215fa8b292d3a9e74c6862b92 )
+2022-07-11T23:06:59.823144Z  INFO sui::wallet_commands: Mutated Objects:
+2022-07-11T23:06:59.823145Z  INFO sui::wallet_commands:   - ID: 0x76b62992826133093c8078b154881f075a9e39f3 , Owner: Account Address ( 0x99793ecd184ed8841bf7dd5473e5eaaecf691ee2 )
+2022-07-11T23:06:59.823147Z  INFO sui::wallet_commands:   - ID: 0xa8d3b5ebccf0358215fa8b292d3a9e74c6862b92 , Owner: Object ID: ( 0xa960fae319c8595e841552e8364b986288981687 )
+2022-07-11T23:06:59.823148Z  INFO sui::wallet_commands:   - ID: 0xa960fae319c8595e841552e8364b986288981687 , Owner: Shared
+2022-07-11T23:06:59.823150Z  INFO sui::wallet_commands:   - ID: 0xd8500c17d231276cab3098c818ef84b7ecb134f2 , Owner: Object ID: ( 0xa960fae319c8595e841552e8364b986288981687 )
+2022-07-11T23:06:59.823525Z  INFO sui_storage::lock_service: LockService command loop stopped, the sender on other end hung up/dropped
+2022-07-11T23:06:59.823538Z  INFO sui_storage::lock_service: LockService queries loop stopped, the sender on other end hung up/dropped
+2022-07-11T23:07:11.825191Z  INFO sui_storage::lock_service: LockService queries processing loop started
+2022-07-11T23:07:11.825201Z  INFO sui_storage::lock_service: LockService command processing loop started
+2022-07-11T23:07:11.914625Z  INFO sui::wallet_commands: [1m----- Move Object (0x4aa7fc86332c8dd9c536a7fe8f0455a67b2fc6b7[1]) -----[0m
+2022-07-11T23:07:11.914676Z  INFO sui::wallet_commands: [1;90mOwner[0m: Object ID: ( 0xa8d3b5ebccf0358215fa8b292d3a9e74c6862b92 )
+2022-07-11T23:07:11.914683Z  INFO sui::wallet_commands: [1;90mVersion[0m: 1
+2022-07-11T23:07:11.914685Z  INFO sui::wallet_commands: [1;90mStorage Rebate[0m: 25
+2022-07-11T23:07:11.914686Z  INFO sui::wallet_commands: [1;90mPrevious Transaction[0m: OnEKdAuKTDW80sQrsJqvD2Ets3R81TBvX0BcyH8JoQE=
+2022-07-11T23:07:11.914688Z  INFO sui::wallet_commands: [1m----- Data -----[0m
+2022-07-11T23:07:11.914690Z  INFO sui::wallet_commands: [1;90mtype[0m: 0x62a167bd994df9ba16572ec0feae6c3514e20b29::marketplace::Listing<0x2::devnet_nft::DevNetNFT, 0x2::sui::SUI>
+2022-07-11T23:07:11.914691Z  INFO sui::wallet_commands: [1;90mask[0m: 100
+2022-07-11T23:07:11.914693Z  INFO sui::wallet_commands: [1;90mid[0m: 0x4aa7fc86332c8dd9c536a7fe8f0455a67b2fc6b7[1]
+2022-07-11T23:07:11.914696Z  INFO sui::wallet_commands: [1;90mitem_ref[0m: 
+2022-07-11T23:07:11.914710Z  INFO sui::wallet_commands:   [1;90mtype[0m: 0x2::transfer::ChildRef<0x2::devnet_nft::DevNetNFT>
+2022-07-11T23:07:11.914728Z  INFO sui::wallet_commands:   [1;90mchild_id[0m: 0xd8500c17d231276cab3098c818ef84b7ecb134f2
+2022-07-11T23:07:11.914730Z  INFO sui::wallet_commands: [1;90mowner[0m: 0x99793ecd184ed8841bf7dd5473e5eaaecf691ee2
+2022-07-11T23:07:11.915019Z  INFO sui_storage::lock_service: LockService command loop stopped, the sender on other end hung up/dropped
+2022-07-11T23:07:11.915034Z  INFO sui_storage::lock_service: LockService queries loop stopped, the sender on other end hung up/dropped
+2022-07-11T23:07:59.305736Z  INFO sui_storage::lock_service: LockService command processing loop started
+2022-07-11T23:07:59.305747Z  INFO sui_storage::lock_service: LockService queries processing loop started
+2022-07-11T23:07:59.397074Z  INFO sui_storage::lock_service: LockService command loop stopped, the sender on other end hung up/dropped
+2022-07-11T23:07:59.397111Z  INFO sui_storage::lock_service: LockService queries loop stopped, the sender on other end hung up/dropped
+2022-07-11T23:08:05.787107Z  INFO sui_storage::lock_service: LockService command processing loop started
+2022-07-11T23:08:05.787127Z  INFO sui_storage::lock_service: LockService queries processing loop started
+2022-07-11T23:08:06.103230Z  INFO sui_storage::lock_service: LockService command loop stopped, the sender on other end hung up/dropped
+2022-07-11T23:08:06.103243Z  INFO sui_storage::lock_service: LockService queries loop stopped, the sender on other end hung up/dropped
+2022-07-11T23:21:30.941412Z  INFO sui_storage::lock_service: LockService queries processing loop started
+2022-07-11T23:21:30.941405Z  INFO sui_storage::lock_service: LockService command processing loop started
+2022-07-11T23:21:31.303557Z  INFO sui::wallet_commands: [1m----- Certificate ----[0m
+2022-07-11T23:21:31.303583Z  INFO sui::wallet_commands: Transaction Hash: o6KmLkU7SFcB9c6WeOw4reBoksmjePiPds3u8R1XWcg=
+2022-07-11T23:21:31.303587Z  INFO sui::wallet_commands: Transaction Signature: +ry++5vwu00xLQzrK72FApX7E4BXVAB3lXRRY+qHiMmAmHtl+CwGgc1Oj5PPQTw2UTiNdFaj7OnbvI6W/uh1CA==@W1Ik/BWVpG5YGaipdp+q9gmVzGVGkL9iY1wV8kPjjBg=
+2022-07-11T23:21:31.303604Z  INFO sui::wallet_commands: Signed Authorities : [k#6a458c8968ea1874bfb3f00c275fb18d50938ea6395825bac66682d930f4e990, k#58ee6beaab8b6d280505a7e00fa0765c436ba647277123ea5a01a1f01b2c8d1d, k#07bf0bd6ac5093481e44d014f3fea78a612a81e3ad92bcf1cedd6b808ea3882d]
+2022-07-11T23:21:31.303621Z  INFO sui::wallet_commands: Transaction Kind : Publish
+2022-07-11T23:21:31.303625Z  INFO sui::wallet_commands: [1m----- Publish Results ----[0m
+2022-07-11T23:21:31.303627Z  INFO sui::wallet_commands: [1mThe newly published package object ID: 0xf639d3382e05f92d958492609dec6e394576206a
+2022-07-11T23:21:31.303628Z  INFO sui::wallet_commands: [0m
+2022-07-11T23:21:31.303629Z  INFO sui::wallet_commands: Updated Gas : Coin { id: 0x76b62992826133093c8078b154881f075a9e39f3, value: 97234 }
+2022-07-11T23:21:31.303968Z  INFO sui_storage::lock_service: LockService queries loop stopped, the sender on other end hung up/dropped
+2022-07-11T23:21:31.304008Z  INFO sui_storage::lock_service: LockService command loop stopped, the sender on other end hung up/dropped
+2022-07-11T23:21:48.139976Z  INFO sui_storage::lock_service: LockService command processing loop started
+2022-07-11T23:21:48.139987Z  INFO sui_storage::lock_service: LockService queries processing loop started
+2022-07-11T23:21:48.294757Z  INFO sui::wallet_commands: [1m----- Certificate ----[0m
+2022-07-11T23:21:48.294781Z  INFO sui::wallet_commands: Transaction Hash: Rx9mUWDHAi6Td1X55KHphNFDFfI8PRHMcbeVkaYs2Ic=
+2022-07-11T23:21:48.294785Z  INFO sui::wallet_commands: Transaction Signature: 3v/snnIGitHfvxUzBNFriTTFbXW1EJZaKg/S3zxfr2fcV9jybp09DzeH/7Dx5XoAfqgeW7+ettQ+PaZGmrIjCA==@W1Ik/BWVpG5YGaipdp+q9gmVzGVGkL9iY1wV8kPjjBg=
+2022-07-11T23:21:48.294787Z  INFO sui::wallet_commands: Signed Authorities : [k#58ee6beaab8b6d280505a7e00fa0765c436ba647277123ea5a01a1f01b2c8d1d, k#07bf0bd6ac5093481e44d014f3fea78a612a81e3ad92bcf1cedd6b808ea3882d, k#588af11bae1bba1c43407412848d3f85bf6d213be3d59576b71b0af774040165]
+2022-07-11T23:21:48.294789Z  INFO sui::wallet_commands: Transaction Kind : Call
+2022-07-11T23:21:48.294803Z  INFO sui::wallet_commands: Package ID : 0xf639d3382e05f92d958492609dec6e394576206a
+2022-07-11T23:21:48.294807Z  INFO sui::wallet_commands: Module : marketplace
+2022-07-11T23:21:48.294810Z  INFO sui::wallet_commands: Function : create
+2022-07-11T23:21:48.294812Z  INFO sui::wallet_commands: Arguments : []
+2022-07-11T23:21:48.294815Z  INFO sui::wallet_commands: Type Arguments : []
+2022-07-11T23:21:48.294817Z  INFO sui::wallet_commands: [1m----- Transaction Effects ----[0m
+2022-07-11T23:21:48.294818Z  INFO sui::wallet_commands: Status : Success
+2022-07-11T23:21:48.294820Z  INFO sui::wallet_commands: Created Objects:
+2022-07-11T23:21:48.294821Z  INFO sui::wallet_commands:   - ID: 0xc2eb1fe7ee7143098a1cc16077e55b6783c5c5de , Owner: Shared
+2022-07-11T23:21:48.294823Z  INFO sui::wallet_commands:   - ID: 0xf4f1cb428bcf2fb2777171bfcafabd105c79ea4d , Owner: Object ID: ( 0xc2eb1fe7ee7143098a1cc16077e55b6783c5c5de )
+2022-07-11T23:21:48.294824Z  INFO sui::wallet_commands: Mutated Objects:
+2022-07-11T23:21:48.294838Z  INFO sui::wallet_commands:   - ID: 0x76b62992826133093c8078b154881f075a9e39f3 , Owner: Account Address ( 0x99793ecd184ed8841bf7dd5473e5eaaecf691ee2 )
+2022-07-11T23:21:48.295208Z  INFO sui_storage::lock_service: LockService command loop stopped, the sender on other end hung up/dropped
+2022-07-11T23:21:48.295236Z  INFO sui_storage::lock_service: LockService queries loop stopped, the sender on other end hung up/dropped
+2022-07-11T23:22:15.912113Z  INFO sui_storage::lock_service: LockService command processing loop started
+2022-07-11T23:22:15.912125Z  INFO sui_storage::lock_service: LockService queries processing loop started
+2022-07-11T23:22:16.073255Z  INFO sui::wallet_commands: [1mSuccessfully created an ExampleNFT:[0m
+2022-07-11T23:22:16.073280Z  INFO sui::wallet_commands: 
+2022-07-11T23:22:16.073283Z  INFO sui::wallet_commands: [1m----- Move Object (0x3a80d7ef30408b0149c948e3ca9c96fa4c8e48d7[1]) -----[0m
+2022-07-11T23:22:16.073299Z  INFO sui::wallet_commands: [1;90mOwner[0m: Account Address ( 0x99793ecd184ed8841bf7dd5473e5eaaecf691ee2 )
+2022-07-11T23:22:16.073305Z  INFO sui::wallet_commands: [1;90mVersion[0m: 1
+2022-07-11T23:22:16.073307Z  INFO sui::wallet_commands: [1;90mStorage Rebate[0m: 25
+2022-07-11T23:22:16.073310Z  INFO sui::wallet_commands: [1;90mPrevious Transaction[0m: /pEWWoN+LmeQFgGrFwSGplNgDivFkyy5lw6Slx6natk=
+2022-07-11T23:22:16.073311Z  INFO sui::wallet_commands: [1m----- Data -----[0m
+2022-07-11T23:22:16.073325Z  INFO sui::wallet_commands: [1;90mtype[0m: 0x2::devnet_nft::DevNetNFT
+2022-07-11T23:22:16.073355Z  INFO sui::wallet_commands: [1;90mdescription[0m: An NFT created by the wallet Command Line Tool
+2022-07-11T23:22:16.073382Z  INFO sui::wallet_commands: [1;90mid[0m: 0x3a80d7ef30408b0149c948e3ca9c96fa4c8e48d7[1]
+2022-07-11T23:22:16.073386Z  INFO sui::wallet_commands: [1;90mname[0m: Example NFT
+2022-07-11T23:22:16.073387Z  INFO sui::wallet_commands: [1;90murl[0m: ipfs://bafkreibngqhl3gaa7daob4i2vccziay2jjlp435cf66vhono7nrvww53ty
+2022-07-11T23:22:16.073753Z  INFO sui_storage::lock_service: LockService command loop stopped, the sender on other end hung up/dropped
+2022-07-11T23:22:16.073780Z  INFO sui_storage::lock_service: LockService queries loop stopped, the sender on other end hung up/dropped
+2022-07-11T23:22:29.037608Z  INFO sui_storage::lock_service: LockService command processing loop started
+2022-07-11T23:22:29.037624Z  INFO sui_storage::lock_service: LockService queries processing loop started
+2022-07-11T23:22:29.584725Z  INFO sui::wallet_commands: [1m----- Certificate ----[0m
+2022-07-11T23:22:29.584751Z  INFO sui::wallet_commands: Transaction Hash: U2IOz9WxPL6jJrEfZA0Z43IUzzLr7JFR6kXDHNPYX4E=
+2022-07-11T23:22:29.584768Z  INFO sui::wallet_commands: Transaction Signature: 1DEJJ08RAM7iFPEWSFyl4JnLLA5rfziGmPZ2qUNjYDxL5RqzmCtAHRwfmgA6Meicv1cq1Jnt++9lutl6CcQ4Aw==@W1Ik/BWVpG5YGaipdp+q9gmVzGVGkL9iY1wV8kPjjBg=
+2022-07-11T23:22:29.584774Z  INFO sui::wallet_commands: Signed Authorities : [k#07bf0bd6ac5093481e44d014f3fea78a612a81e3ad92bcf1cedd6b808ea3882d, k#6a458c8968ea1874bfb3f00c275fb18d50938ea6395825bac66682d930f4e990, k#588af11bae1bba1c43407412848d3f85bf6d213be3d59576b71b0af774040165]
+2022-07-11T23:22:29.584776Z  INFO sui::wallet_commands: Transaction Kind : Call
+2022-07-11T23:22:29.584779Z  INFO sui::wallet_commands: Package ID : 0xf639d3382e05f92d958492609dec6e394576206a
+2022-07-11T23:22:29.584780Z  INFO sui::wallet_commands: Module : marketplace
+2022-07-11T23:22:29.584782Z  INFO sui::wallet_commands: Function : list
+2022-07-11T23:22:29.584784Z  INFO sui::wallet_commands: Arguments : ["0xc2eb1fe7ee7143098a1cc16077e55b6783c5c5de", "0xf4f1cb428bcf2fb2777171bfcafabd105c79ea4d", "0x3a80d7ef30408b0149c948e3ca9c96fa4c8e48d7", 100]
+2022-07-11T23:22:29.584786Z  INFO sui::wallet_commands: Type Arguments : ["0x2::devnet_nft::DevNetNFT", "0x2::sui::SUI"]
+2022-07-11T23:22:29.584806Z  INFO sui::wallet_commands: [1m----- Transaction Effects ----[0m
+2022-07-11T23:22:29.584808Z  INFO sui::wallet_commands: Status : Success
+2022-07-11T23:22:29.584810Z  INFO sui::wallet_commands: Created Objects:
+2022-07-11T23:22:29.584812Z  INFO sui::wallet_commands:   - ID: 0xe98fb23c9ed244d73e42b8e761458ac631a15369 , Owner: Object ID: ( 0xf4f1cb428bcf2fb2777171bfcafabd105c79ea4d )
+2022-07-11T23:22:29.584815Z  INFO sui::wallet_commands: Mutated Objects:
+2022-07-11T23:22:29.584816Z  INFO sui::wallet_commands:   - ID: 0x3a80d7ef30408b0149c948e3ca9c96fa4c8e48d7 , Owner: Object ID: ( 0xc2eb1fe7ee7143098a1cc16077e55b6783c5c5de )
+2022-07-11T23:22:29.584818Z  INFO sui::wallet_commands:   - ID: 0x76b62992826133093c8078b154881f075a9e39f3 , Owner: Account Address ( 0x99793ecd184ed8841bf7dd5473e5eaaecf691ee2 )
+2022-07-11T23:22:29.584819Z  INFO sui::wallet_commands:   - ID: 0xc2eb1fe7ee7143098a1cc16077e55b6783c5c5de , Owner: Shared
+2022-07-11T23:22:29.584821Z  INFO sui::wallet_commands:   - ID: 0xf4f1cb428bcf2fb2777171bfcafabd105c79ea4d , Owner: Object ID: ( 0xc2eb1fe7ee7143098a1cc16077e55b6783c5c5de )
+2022-07-11T23:22:29.585245Z  INFO sui_storage::lock_service: LockService command loop stopped, the sender on other end hung up/dropped
+2022-07-11T23:22:29.585268Z  INFO sui_storage::lock_service: LockService queries loop stopped, the sender on other end hung up/dropped
+2022-07-11T23:24:04.607222Z  INFO sui_storage::lock_service: LockService queries processing loop started
+2022-07-11T23:24:04.607269Z  INFO sui_storage::lock_service: LockService command processing loop started
+2022-07-11T23:24:05.225231Z  INFO sui_storage::lock_service: LockService command loop stopped, the sender on other end hung up/dropped
+2022-07-11T23:24:05.225248Z  INFO sui_storage::lock_service: LockService queries loop stopped, the sender on other end hung up/dropped
+2022-07-11T23:24:48.255938Z  INFO sui_storage::lock_service: LockService queries processing loop started
+2022-07-11T23:24:48.255931Z  INFO sui_storage::lock_service: LockService command processing loop started
+2022-07-11T23:24:48.742889Z  INFO sui::wallet_commands: [1m----- Certificate ----[0m
+2022-07-11T23:24:48.742940Z  INFO sui::wallet_commands: Transaction Hash: 5wiqjByHX/Iqv98ZRyWlecGUpavgAaI848XWqaUs3QU=
+2022-07-11T23:24:48.742957Z  INFO sui::wallet_commands: Transaction Signature: vfBU6gfvBHf6FVXpv5+8gNvVWXGlw9EvaStrZA7o/1O6bBdbPX7RAazr2td4FeNHoKGQRPaR9gT53HCbpJX2DA==@W1Ik/BWVpG5YGaipdp+q9gmVzGVGkL9iY1wV8kPjjBg=
+2022-07-11T23:24:48.742977Z  INFO sui::wallet_commands: Signed Authorities : [k#07bf0bd6ac5093481e44d014f3fea78a612a81e3ad92bcf1cedd6b808ea3882d, k#6a458c8968ea1874bfb3f00c275fb18d50938ea6395825bac66682d930f4e990, k#588af11bae1bba1c43407412848d3f85bf6d213be3d59576b71b0af774040165]
+2022-07-11T23:24:48.742979Z  INFO sui::wallet_commands: Transaction Kind : Call
+2022-07-11T23:24:48.742981Z  INFO sui::wallet_commands: Package ID : 0xf639d3382e05f92d958492609dec6e394576206a
+2022-07-11T23:24:48.742983Z  INFO sui::wallet_commands: Module : marketplace
+2022-07-11T23:24:48.743012Z  INFO sui::wallet_commands: Function : delist_listing
+2022-07-11T23:24:48.743016Z  INFO sui::wallet_commands: Arguments : ["0xc2eb1fe7ee7143098a1cc16077e55b6783c5c5de", "0xf4f1cb428bcf2fb2777171bfcafabd105c79ea4d", "0xe98fb23c9ed244d73e42b8e761458ac631a15369"]
+2022-07-11T23:24:48.743019Z  INFO sui::wallet_commands: Type Arguments : ["0x2::devnet_nft::DevNetNFT", "0x2::sui::SUI"]
+2022-07-11T23:24:48.743023Z  INFO sui::wallet_commands: [1m----- Transaction Effects ----[0m
+2022-07-11T23:24:48.743026Z  INFO sui::wallet_commands: Status : Success
+2022-07-11T23:24:48.743027Z  INFO sui::wallet_commands: Mutated Objects:
+2022-07-11T23:24:48.743031Z  INFO sui::wallet_commands:   - ID: 0x76b62992826133093c8078b154881f075a9e39f3 , Owner: Account Address ( 0x99793ecd184ed8841bf7dd5473e5eaaecf691ee2 )
+2022-07-11T23:24:48.743033Z  INFO sui::wallet_commands:   - ID: 0xc2eb1fe7ee7143098a1cc16077e55b6783c5c5de , Owner: Shared
+2022-07-11T23:24:48.743035Z  INFO sui::wallet_commands:   - ID: 0xe98fb23c9ed244d73e42b8e761458ac631a15369 , Owner: Account Address ( 0x99793ecd184ed8841bf7dd5473e5eaaecf691ee2 )
+2022-07-11T23:24:48.743036Z  INFO sui::wallet_commands:   - ID: 0xf4f1cb428bcf2fb2777171bfcafabd105c79ea4d , Owner: Object ID: ( 0xc2eb1fe7ee7143098a1cc16077e55b6783c5c5de )
+2022-07-11T23:24:48.743411Z  INFO sui_storage::lock_service: LockService command loop stopped, the sender on other end hung up/dropped
+2022-07-11T23:24:48.743503Z  INFO sui_storage::lock_service: LockService queries loop stopped, the sender on other end hung up/dropped
+2022-07-11T23:25:12.374443Z  INFO sui_storage::lock_service: LockService queries processing loop started
+2022-07-11T23:25:12.374443Z  INFO sui_storage::lock_service: LockService command processing loop started
+2022-07-11T23:25:12.515865Z  INFO sui::wallet_commands: [1m----- Move Object (0x76b62992826133093c8078b154881f075a9e39f3[11]) -----[0m
+2022-07-11T23:25:12.515889Z  INFO sui::wallet_commands: [1;90mOwner[0m: Account Address ( 0x99793ecd184ed8841bf7dd5473e5eaaecf691ee2 )
+2022-07-11T23:25:12.515892Z  INFO sui::wallet_commands: [1;90mVersion[0m: 11
+2022-07-11T23:25:12.515894Z  INFO sui::wallet_commands: [1;90mStorage Rebate[0m: 15
+2022-07-11T23:25:12.515896Z  INFO sui::wallet_commands: [1;90mPrevious Transaction[0m: 5wiqjByHX/Iqv98ZRyWlecGUpavgAaI848XWqaUs3QU=
+2022-07-11T23:25:12.515897Z  INFO sui::wallet_commands: [1m----- Data -----[0m
+2022-07-11T23:25:12.515898Z  INFO sui::wallet_commands: [1;90mtype[0m: 0x2::coin::Coin<0x2::sui::SUI>
+2022-07-11T23:25:12.515900Z  INFO sui::wallet_commands: [1;90mbalance[0m: 95415
+2022-07-11T23:25:12.515901Z  INFO sui::wallet_commands: [1;90mid[0m: 0x76b62992826133093c8078b154881f075a9e39f3[11]
+2022-07-11T23:25:12.516227Z  INFO sui_storage::lock_service: LockService command loop stopped, the sender on other end hung up/dropped
+2022-07-11T23:25:12.516278Z  INFO sui_storage::lock_service: LockService queries loop stopped, the sender on other end hung up/dropped
+2022-07-11T23:25:28.413778Z  INFO sui_storage::lock_service: LockService command processing loop started
+2022-07-11T23:25:28.413812Z  INFO sui_storage::lock_service: LockService queries processing loop started
+2022-07-11T23:25:28.556274Z  INFO sui::wallet_commands: [1m----- Move Object (0xf4f1cb428bcf2fb2777171bfcafabd105c79ea4d[4]) -----[0m
+2022-07-11T23:25:28.556334Z  INFO sui::wallet_commands: [1;90mOwner[0m: Object ID: ( 0xc2eb1fe7ee7143098a1cc16077e55b6783c5c5de )
+2022-07-11T23:25:28.556342Z  INFO sui::wallet_commands: [1;90mVersion[0m: 4
+2022-07-11T23:25:28.556356Z  INFO sui::wallet_commands: [1;90mStorage Rebate[0m: 12
+2022-07-11T23:25:28.556377Z  INFO sui::wallet_commands: [1;90mPrevious Transaction[0m: 5wiqjByHX/Iqv98ZRyWlecGUpavgAaI848XWqaUs3QU=
+2022-07-11T23:25:28.556434Z  INFO sui::wallet_commands: [1m----- Data -----[0m
+2022-07-11T23:25:28.556440Z  INFO sui::wallet_commands: [1;90mtype[0m: 0x2::bag::Bag
+2022-07-11T23:25:28.556456Z  INFO sui::wallet_commands: [1;90mid[0m: 0xf4f1cb428bcf2fb2777171bfcafabd105c79ea4d[4]
+2022-07-11T23:25:28.556457Z  INFO sui::wallet_commands: [1;90mmax_capacity[0m: 65536
+2022-07-11T23:25:28.556459Z  INFO sui::wallet_commands: [1;90mobjects[0m: []
+2022-07-11T23:25:28.556808Z  INFO sui_storage::lock_service: LockService command loop stopped, the sender on other end hung up/dropped
+2022-07-11T23:25:28.556822Z  INFO sui_storage::lock_service: LockService queries loop stopped, the sender on other end hung up/dropped
+2022-07-11T23:25:38.002104Z  INFO sui_storage::lock_service: LockService command processing loop started
+2022-07-11T23:25:38.002118Z  INFO sui_storage::lock_service: LockService queries processing loop started
+2022-07-11T23:25:38.223657Z  INFO sui::wallet_commands: [1m----- Move Object (0xe98fb23c9ed244d73e42b8e761458ac631a15369[3]) -----[0m
+2022-07-11T23:25:38.223703Z  INFO sui::wallet_commands: [1;90mOwner[0m: Account Address ( 0x99793ecd184ed8841bf7dd5473e5eaaecf691ee2 )
+2022-07-11T23:25:38.223720Z  INFO sui::wallet_commands: [1;90mVersion[0m: 3
+2022-07-11T23:25:38.223729Z  INFO sui::wallet_commands: [1;90mStorage Rebate[0m: 25
+2022-07-11T23:25:38.223731Z  INFO sui::wallet_commands: [1;90mPrevious Transaction[0m: 5wiqjByHX/Iqv98ZRyWlecGUpavgAaI848XWqaUs3QU=
+2022-07-11T23:25:38.223732Z  INFO sui::wallet_commands: [1m----- Data -----[0m
+2022-07-11T23:25:38.223734Z  INFO sui::wallet_commands: [1;90mtype[0m: 0xf639d3382e05f92d958492609dec6e394576206a::marketplace::Listing<0x2::devnet_nft::DevNetNFT, 0x2::sui::SUI>
+2022-07-11T23:25:38.223736Z  INFO sui::wallet_commands: [1;90mask[0m: 100
+2022-07-11T23:25:38.223738Z  INFO sui::wallet_commands: [1;90mid[0m: 0xe98fb23c9ed244d73e42b8e761458ac631a15369[3]
+2022-07-11T23:25:38.223756Z  INFO sui::wallet_commands: [1;90mitem_ref[0m: 
+2022-07-11T23:25:38.223773Z  INFO sui::wallet_commands:   [1;90mtype[0m: 0x2::transfer::ChildRef<0x2::devnet_nft::DevNetNFT>
+2022-07-11T23:25:38.223788Z  INFO sui::wallet_commands:   [1;90mchild_id[0m: 0x3a80d7ef30408b0149c948e3ca9c96fa4c8e48d7
+2022-07-11T23:25:38.223803Z  INFO sui::wallet_commands: [1;90mowner[0m: 0x99793ecd184ed8841bf7dd5473e5eaaecf691ee2
+2022-07-11T23:25:38.224122Z  INFO sui_storage::lock_service: LockService command loop stopped, the sender on other end hung up/dropped
+2022-07-11T23:25:38.224134Z  INFO sui_storage::lock_service: LockService queries loop stopped, the sender on other end hung up/dropped
+2022-07-11T23:25:40.960318Z  INFO sui_storage::lock_service: LockService queries processing loop started
+2022-07-11T23:25:40.960360Z  INFO sui_storage::lock_service: LockService command processing loop started
+2022-07-11T23:25:41.053132Z  INFO sui::wallet_commands:                  Object ID                  |  Version   |                    Digest                    |   Owner Type    |               Object Type               
+2022-07-11T23:25:41.053171Z  INFO sui::wallet_commands: ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2022-07-11T23:25:41.053176Z  INFO sui::wallet_commands:  0x76b62992826133093c8078b154881f075a9e39f3 |     11     | rmn7ilzp816Knz/UfHrb8yGYrfo9ohRgyERjYM8vFtI= |  AddressOwner   |      0x2::coin::Coin<0x2::sui::SUI>     
+2022-07-11T23:25:41.053178Z  INFO sui::wallet_commands:  0x8b041856e90b9ca3b5bd8ea80c1d55747c0b060d |     0      | 1QJbWbfKg8cwgKLR8tKBddd7E11HlnoDaiM+95zRyHg= |  AddressOwner   |      0x2::coin::Coin<0x2::sui::SUI>     
+2022-07-11T23:25:41.053182Z  INFO sui::wallet_commands:  0xe93c87ab51614272f8541d5d8103e62d765d72c4 |     0      | u45FUM5vioWxGK4DBa+EuHlMJ2o6Qo7QMumKtX9hhus= |  AddressOwner   |      0x2::coin::Coin<0x2::sui::SUI>     
+2022-07-11T23:25:41.053184Z  INFO sui::wallet_commands:  0xe98fb23c9ed244d73e42b8e761458ac631a15369 |     3      | hVkA39StqfWy6Z8xj73RGppaJnCt0zINX7a/P7R8gSI= |  AddressOwner   | 0xf639d3382e05f92d958492609dec6e394576206a::marketplace::Listing<0x2::devnet_nft::DevNetNFT, 0x2::sui::SUI>
+2022-07-11T23:25:41.053185Z  INFO sui::wallet_commands:  0xecb564bc44e29b43bdd16626ed5f83bd12d99cfc |     0      | IlfGzUYt7Qxw4F3y0hnORfouobDPiu30S4Ypr1KY/4c= |  AddressOwner   |      0x2::coin::Coin<0x2::sui::SUI>     
+2022-07-11T23:25:41.053199Z  INFO sui::wallet_commands:  0xf6fefbc2dd2fdfb806aead2c599ca1c0ca990ce1 |     0      | nsoIV23GeWpo/dYF0m/PYD3qtK+fRCIMkGLHTYayVLo= |  AddressOwner   |      0x2::coin::Coin<0x2::sui::SUI>     
+2022-07-11T23:25:41.053226Z  INFO sui::wallet_commands: Showing 6 results.
+2022-07-11T23:25:41.053589Z  INFO sui_storage::lock_service: LockService queries loop stopped, the sender on other end hung up/dropped
+2022-07-11T23:25:41.053581Z  INFO sui_storage::lock_service: LockService command loop stopped, the sender on other end hung up/dropped
+2022-07-11T23:44:16.249472Z  INFO sui_storage::lock_service: LockService queries processing loop started
+2022-07-11T23:44:16.249472Z  INFO sui_storage::lock_service: LockService command processing loop started
+2022-07-11T23:44:16.533545Z  INFO sui::wallet_commands: [1m----- Certificate ----[0m
+2022-07-11T23:44:16.533569Z  INFO sui::wallet_commands: Transaction Hash: FQr+/CCeT3dr97RTNmJoY2ttMgzxgeWHfS0tYEPkF0A=
+2022-07-11T23:44:16.533573Z  INFO sui::wallet_commands: Transaction Signature: JRqj0yg+rXyFfHv//lWHITipv1o0TzVpX0bPzivjGohNvy1vET9aLGzopdTYTvFu+BRWovBay2XVPiTsdDYyBg==@W1Ik/BWVpG5YGaipdp+q9gmVzGVGkL9iY1wV8kPjjBg=
+2022-07-11T23:44:16.533575Z  INFO sui::wallet_commands: Signed Authorities : [k#58ee6beaab8b6d280505a7e00fa0765c436ba647277123ea5a01a1f01b2c8d1d, k#07bf0bd6ac5093481e44d014f3fea78a612a81e3ad92bcf1cedd6b808ea3882d, k#588af11bae1bba1c43407412848d3f85bf6d213be3d59576b71b0af774040165]
+2022-07-11T23:44:16.533590Z  INFO sui::wallet_commands: Transaction Kind : Publish
+2022-07-11T23:44:16.533594Z  INFO sui::wallet_commands: [1m----- Publish Results ----[0m
+2022-07-11T23:44:16.533598Z  INFO sui::wallet_commands: [1mThe newly published package object ID: 0x45111271d078ab961f50eff10220705ee7baf882
+2022-07-11T23:44:16.533599Z  INFO sui::wallet_commands: [0m
+2022-07-11T23:44:16.533601Z  INFO sui::wallet_commands: Updated Gas : Coin { id: 0x76b62992826133093c8078b154881f075a9e39f3, value: 94783 }
+2022-07-11T23:44:16.534006Z  INFO sui_storage::lock_service: LockService command loop stopped, the sender on other end hung up/dropped
+2022-07-11T23:44:16.534016Z  INFO sui_storage::lock_service: LockService queries loop stopped, the sender on other end hung up/dropped
+2022-07-11T23:44:45.320308Z  INFO sui_storage::lock_service: LockService command processing loop started
+2022-07-11T23:44:45.320358Z  INFO sui_storage::lock_service: LockService queries processing loop started
+2022-07-11T23:44:45.532957Z  INFO sui::wallet_commands: [1m----- Certificate ----[0m
+2022-07-11T23:44:45.532994Z  INFO sui::wallet_commands: Transaction Hash: iDCJmZ2l99cQI5Hll0y/BfaNEDunH5agklpnauyZqEY=
+2022-07-11T23:44:45.533000Z  INFO sui::wallet_commands: Transaction Signature: Metm451m2NAIujlnOTJhf8VKjJKvZf4zA3mYlhtNmWIY2/w0Fce2FZV/xv6+0yLCwpc8iC7uIiC29occTuSoAw==@W1Ik/BWVpG5YGaipdp+q9gmVzGVGkL9iY1wV8kPjjBg=
+2022-07-11T23:44:45.533004Z  INFO sui::wallet_commands: Signed Authorities : [k#6a458c8968ea1874bfb3f00c275fb18d50938ea6395825bac66682d930f4e990, k#07bf0bd6ac5093481e44d014f3fea78a612a81e3ad92bcf1cedd6b808ea3882d, k#58ee6beaab8b6d280505a7e00fa0765c436ba647277123ea5a01a1f01b2c8d1d]
+2022-07-11T23:44:45.533006Z  INFO sui::wallet_commands: Transaction Kind : Call
+2022-07-11T23:44:45.533019Z  INFO sui::wallet_commands: Package ID : 0x45111271d078ab961f50eff10220705ee7baf882
+2022-07-11T23:44:45.533023Z  INFO sui::wallet_commands: Module : marketplace
+2022-07-11T23:44:45.533025Z  INFO sui::wallet_commands: Function : create
+2022-07-11T23:44:45.533027Z  INFO sui::wallet_commands: Arguments : []
+2022-07-11T23:44:45.533028Z  INFO sui::wallet_commands: Type Arguments : []
+2022-07-11T23:44:45.533030Z  INFO sui::wallet_commands: [1m----- Transaction Effects ----[0m
+2022-07-11T23:44:45.533032Z  INFO sui::wallet_commands: Status : Success
+2022-07-11T23:44:45.533034Z  INFO sui::wallet_commands: Created Objects:
+2022-07-11T23:44:45.533037Z  INFO sui::wallet_commands:   - ID: 0xa5a28527d9704eb2022733c0c09dfeabbc938ba4 , Owner: Object ID: ( 0xb72f3c1b0cb8ab9ce44f092dc9881cb4694ec884 )
+2022-07-11T23:44:45.533051Z  INFO sui::wallet_commands:   - ID: 0xb72f3c1b0cb8ab9ce44f092dc9881cb4694ec884 , Owner: Shared
+2022-07-11T23:44:45.533067Z  INFO sui::wallet_commands: Mutated Objects:
+2022-07-11T23:44:45.533084Z  INFO sui::wallet_commands:   - ID: 0x76b62992826133093c8078b154881f075a9e39f3 , Owner: Account Address ( 0x99793ecd184ed8841bf7dd5473e5eaaecf691ee2 )
+2022-07-11T23:44:45.533439Z  INFO sui_storage::lock_service: LockService command loop stopped, the sender on other end hung up/dropped
+2022-07-11T23:44:45.533456Z  INFO sui_storage::lock_service: LockService queries loop stopped, the sender on other end hung up/dropped
+2022-07-11T23:45:14.889332Z  INFO sui_storage::lock_service: LockService command processing loop started
+2022-07-11T23:45:14.889334Z  INFO sui_storage::lock_service: LockService queries processing loop started
+2022-07-11T23:45:15.093126Z  INFO sui::wallet_commands: [1mSuccessfully created an ExampleNFT:[0m
+2022-07-11T23:45:15.093150Z  INFO sui::wallet_commands: 
+2022-07-11T23:45:15.093154Z  INFO sui::wallet_commands: [1m----- Move Object (0x24b72414954d9ccd82413da5bf8fc5cf9f200f2f[1]) -----[0m
+2022-07-11T23:45:15.093156Z  INFO sui::wallet_commands: [1;90mOwner[0m: Account Address ( 0x99793ecd184ed8841bf7dd5473e5eaaecf691ee2 )
+2022-07-11T23:45:15.093157Z  INFO sui::wallet_commands: [1;90mVersion[0m: 1
+2022-07-11T23:45:15.093172Z  INFO sui::wallet_commands: [1;90mStorage Rebate[0m: 25
+2022-07-11T23:45:15.093177Z  INFO sui::wallet_commands: [1;90mPrevious Transaction[0m: +SVpxMQNgszsm68uByPGMS2YS9+D/lcbiQuj7bxYAys=
+2022-07-11T23:45:15.093180Z  INFO sui::wallet_commands: [1m----- Data -----[0m
+2022-07-11T23:45:15.093193Z  INFO sui::wallet_commands: [1;90mtype[0m: 0x2::devnet_nft::DevNetNFT
+2022-07-11T23:45:15.093197Z  INFO sui::wallet_commands: [1;90mdescription[0m: An NFT created by the wallet Command Line Tool
+2022-07-11T23:45:15.093200Z  INFO sui::wallet_commands: [1;90mid[0m: 0x24b72414954d9ccd82413da5bf8fc5cf9f200f2f[1]
+2022-07-11T23:45:15.093202Z  INFO sui::wallet_commands: [1;90mname[0m: Example NFT
+2022-07-11T23:45:15.093205Z  INFO sui::wallet_commands: [1;90murl[0m: ipfs://bafkreibngqhl3gaa7daob4i2vccziay2jjlp435cf66vhono7nrvww53ty
+2022-07-11T23:45:15.093639Z  INFO sui_storage::lock_service: LockService command loop stopped, the sender on other end hung up/dropped
+2022-07-11T23:45:15.093649Z  INFO sui_storage::lock_service: LockService queries loop stopped, the sender on other end hung up/dropped
+2022-07-11T23:45:43.773671Z  INFO sui_storage::lock_service: LockService command processing loop started
+2022-07-11T23:45:43.773686Z  INFO sui_storage::lock_service: LockService queries processing loop started
+2022-07-11T23:45:44.203072Z  INFO sui::wallet_commands: [1m----- Certificate ----[0m
+2022-07-11T23:45:44.203097Z  INFO sui::wallet_commands: Transaction Hash: EhuktSh2jrASZhxPTi9cK7T7Ycsjpkbd+IyF6zg4oZE=
+2022-07-11T23:45:44.203139Z  INFO sui::wallet_commands: Transaction Signature: zy6FCYvl9CjWUM3JNHXf3iNTFZQfEq4QHnv+gHzwUuaEMBve3kTRbCaVXkO82pdSbQE+7wHA80C7C4hbLQWlDw==@W1Ik/BWVpG5YGaipdp+q9gmVzGVGkL9iY1wV8kPjjBg=
+2022-07-11T23:45:44.203145Z  INFO sui::wallet_commands: Signed Authorities : [k#07bf0bd6ac5093481e44d014f3fea78a612a81e3ad92bcf1cedd6b808ea3882d, k#588af11bae1bba1c43407412848d3f85bf6d213be3d59576b71b0af774040165, k#58ee6beaab8b6d280505a7e00fa0765c436ba647277123ea5a01a1f01b2c8d1d]
+2022-07-11T23:45:44.203160Z  INFO sui::wallet_commands: Transaction Kind : Call
+2022-07-11T23:45:44.203175Z  INFO sui::wallet_commands: Package ID : 0x45111271d078ab961f50eff10220705ee7baf882
+2022-07-11T23:45:44.203180Z  INFO sui::wallet_commands: Module : marketplace
+2022-07-11T23:45:44.203182Z  INFO sui::wallet_commands: Function : list
+2022-07-11T23:45:44.203183Z  INFO sui::wallet_commands: Arguments : ["0xb72f3c1b0cb8ab9ce44f092dc9881cb4694ec884", "0xa5a28527d9704eb2022733c0c09dfeabbc938ba4", "0x24b72414954d9ccd82413da5bf8fc5cf9f200f2f", 100]
+2022-07-11T23:45:44.203185Z  INFO sui::wallet_commands: Type Arguments : ["0x2::devnet_nft::DevNetNFT", "0x2::sui::SUI"]
+2022-07-11T23:45:44.203186Z  INFO sui::wallet_commands: [1m----- Transaction Effects ----[0m
+2022-07-11T23:45:44.203188Z  INFO sui::wallet_commands: Status : Success
+2022-07-11T23:45:44.203189Z  INFO sui::wallet_commands: Created Objects:
+2022-07-11T23:45:44.203192Z  INFO sui::wallet_commands:   - ID: 0xb4e0f976676d89e7af8f3655ef3fecf61f581c94 , Owner: Object ID: ( 0xa5a28527d9704eb2022733c0c09dfeabbc938ba4 )
+2022-07-11T23:45:44.203193Z  INFO sui::wallet_commands: Mutated Objects:
+2022-07-11T23:45:44.203195Z  INFO sui::wallet_commands:   - ID: 0x24b72414954d9ccd82413da5bf8fc5cf9f200f2f , Owner: Object ID: ( 0xb72f3c1b0cb8ab9ce44f092dc9881cb4694ec884 )
+2022-07-11T23:45:44.203197Z  INFO sui::wallet_commands:   - ID: 0x76b62992826133093c8078b154881f075a9e39f3 , Owner: Account Address ( 0x99793ecd184ed8841bf7dd5473e5eaaecf691ee2 )
+2022-07-11T23:45:44.203199Z  INFO sui::wallet_commands:   - ID: 0xa5a28527d9704eb2022733c0c09dfeabbc938ba4 , Owner: Object ID: ( 0xb72f3c1b0cb8ab9ce44f092dc9881cb4694ec884 )
+2022-07-11T23:45:44.203201Z  INFO sui::wallet_commands:   - ID: 0xb72f3c1b0cb8ab9ce44f092dc9881cb4694ec884 , Owner: Shared
+2022-07-11T23:45:44.203634Z  INFO sui_storage::lock_service: LockService command loop stopped, the sender on other end hung up/dropped
+2022-07-11T23:45:44.203761Z  INFO sui_storage::lock_service: LockService queries loop stopped, the sender on other end hung up/dropped
+2022-07-11T23:49:18.537408Z  INFO sui_storage::lock_service: LockService command processing loop started
+2022-07-11T23:49:18.537456Z  INFO sui_storage::lock_service: LockService queries processing loop started
+2022-07-11T23:49:18.629079Z  INFO sui::wallet_commands: [1m----- Move Object (0xb4e0f976676d89e7af8f3655ef3fecf61f581c94[1]) -----[0m
+2022-07-11T23:49:18.629132Z  INFO sui::wallet_commands: [1;90mOwner[0m: Object ID: ( 0xa5a28527d9704eb2022733c0c09dfeabbc938ba4 )
+2022-07-11T23:49:18.629136Z  INFO sui::wallet_commands: [1;90mVersion[0m: 1
+2022-07-11T23:49:18.629138Z  INFO sui::wallet_commands: [1;90mStorage Rebate[0m: 25
+2022-07-11T23:49:18.629139Z  INFO sui::wallet_commands: [1;90mPrevious Transaction[0m: EhuktSh2jrASZhxPTi9cK7T7Ycsjpkbd+IyF6zg4oZE=
+2022-07-11T23:49:18.629141Z  INFO sui::wallet_commands: [1m----- Data -----[0m
+2022-07-11T23:49:18.629142Z  INFO sui::wallet_commands: [1;90mtype[0m: 0x45111271d078ab961f50eff10220705ee7baf882::marketplace::Listing<0x2::devnet_nft::DevNetNFT, 0x2::sui::SUI>
+2022-07-11T23:49:18.629144Z  INFO sui::wallet_commands: [1;90mask[0m: 100
+2022-07-11T23:49:18.629145Z  INFO sui::wallet_commands: [1;90mid[0m: 0xb4e0f976676d89e7af8f3655ef3fecf61f581c94[1]
+2022-07-11T23:49:18.629147Z  INFO sui::wallet_commands: [1;90mitem_ref[0m: 
+2022-07-11T23:49:18.629162Z  INFO sui::wallet_commands:   [1;90mtype[0m: 0x2::transfer::ChildRef<0x2::devnet_nft::DevNetNFT>
+2022-07-11T23:49:18.629219Z  INFO sui::wallet_commands:   [1;90mchild_id[0m: 0x24b72414954d9ccd82413da5bf8fc5cf9f200f2f
+2022-07-11T23:49:18.629245Z  INFO sui::wallet_commands: [1;90mowner[0m: 0x99793ecd184ed8841bf7dd5473e5eaaecf691ee2
+2022-07-11T23:49:18.629594Z  INFO sui_storage::lock_service: LockService command loop stopped, the sender on other end hung up/dropped
+2022-07-11T23:49:18.629608Z  INFO sui_storage::lock_service: LockService queries loop stopped, the sender on other end hung up/dropped
+2022-07-11T23:49:24.040836Z  INFO sui_storage::lock_service: LockService command processing loop started
+2022-07-11T23:49:24.040854Z  INFO sui_storage::lock_service: LockService queries processing loop started
+2022-07-11T23:49:24.170306Z  INFO sui::wallet_commands:                  Object ID                  |  Version   |                    Digest                    |   Owner Type    |               Object Type               
+2022-07-11T23:49:24.170343Z  INFO sui::wallet_commands: ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2022-07-11T23:49:24.170382Z  INFO sui::wallet_commands:  0x76b62992826133093c8078b154881f075a9e39f3 |     15     | 08ncWs7kGHah2nQ0EABYS0ie/1cpFAxdIoa6ocEIfSU= |  AddressOwner   |      0x2::coin::Coin<0x2::sui::SUI>     
+2022-07-11T23:49:24.170402Z  INFO sui::wallet_commands:  0x8b041856e90b9ca3b5bd8ea80c1d55747c0b060d |     0      | 1QJbWbfKg8cwgKLR8tKBddd7E11HlnoDaiM+95zRyHg= |  AddressOwner   |      0x2::coin::Coin<0x2::sui::SUI>     
+2022-07-11T23:49:24.170404Z  INFO sui::wallet_commands:  0xe93c87ab51614272f8541d5d8103e62d765d72c4 |     0      | u45FUM5vioWxGK4DBa+EuHlMJ2o6Qo7QMumKtX9hhus= |  AddressOwner   |      0x2::coin::Coin<0x2::sui::SUI>     
+2022-07-11T23:49:24.170406Z  INFO sui::wallet_commands:  0xe98fb23c9ed244d73e42b8e761458ac631a15369 |     3      | hVkA39StqfWy6Z8xj73RGppaJnCt0zINX7a/P7R8gSI= |  AddressOwner   | 0xf639d3382e05f92d958492609dec6e394576206a::marketplace::Listing<0x2::devnet_nft::DevNetNFT, 0x2::sui::SUI>
+2022-07-11T23:49:24.170423Z  INFO sui::wallet_commands:  0xecb564bc44e29b43bdd16626ed5f83bd12d99cfc |     0      | IlfGzUYt7Qxw4F3y0hnORfouobDPiu30S4Ypr1KY/4c= |  AddressOwner   |      0x2::coin::Coin<0x2::sui::SUI>     
+2022-07-11T23:49:24.170425Z  INFO sui::wallet_commands:  0xf6fefbc2dd2fdfb806aead2c599ca1c0ca990ce1 |     0      | nsoIV23GeWpo/dYF0m/PYD3qtK+fRCIMkGLHTYayVLo= |  AddressOwner   |      0x2::coin::Coin<0x2::sui::SUI>     
+2022-07-11T23:49:24.170426Z  INFO sui::wallet_commands: Showing 6 results.
+2022-07-11T23:49:24.170780Z  INFO sui_storage::lock_service: LockService queries loop stopped, the sender on other end hung up/dropped
+2022-07-11T23:49:24.170817Z  INFO sui_storage::lock_service: LockService command loop stopped, the sender on other end hung up/dropped
+2022-07-11T23:51:17.041082Z  INFO sui_storage::lock_service: LockService command processing loop started
+2022-07-11T23:51:17.041090Z  INFO sui_storage::lock_service: LockService queries processing loop started
+2022-07-11T23:51:17.622903Z  INFO sui::wallet_commands: [1m----- Certificate ----[0m
+2022-07-11T23:51:17.628936Z  INFO sui::wallet_commands: Transaction Hash: psQ60HiTWZlUcT1kQxrj3rdCmISSsTQqq7qPhAjPxgs=
+2022-07-11T23:51:17.628943Z  INFO sui::wallet_commands: Transaction Signature: u4prggePtN0P0SiwDxM6dVWqKfIqolmrzuyAFV2GhIPoxNZhq0uhPvFGga1i8figrJljtRGKtRs8YmsZbaa0DQ==@W1Ik/BWVpG5YGaipdp+q9gmVzGVGkL9iY1wV8kPjjBg=
+2022-07-11T23:51:17.628945Z  INFO sui::wallet_commands: Signed Authorities : [k#58ee6beaab8b6d280505a7e00fa0765c436ba647277123ea5a01a1f01b2c8d1d, k#6a458c8968ea1874bfb3f00c275fb18d50938ea6395825bac66682d930f4e990, k#588af11bae1bba1c43407412848d3f85bf6d213be3d59576b71b0af774040165]
+2022-07-11T23:51:17.628947Z  INFO sui::wallet_commands: Transaction Kind : Call
+2022-07-11T23:51:17.628949Z  INFO sui::wallet_commands: Package ID : 0x45111271d078ab961f50eff10220705ee7baf882
+2022-07-11T23:51:17.628950Z  INFO sui::wallet_commands: Module : marketplace
+2022-07-11T23:51:17.628951Z  INFO sui::wallet_commands: Function : delist_listing
+2022-07-11T23:51:17.628953Z  INFO sui::wallet_commands: Arguments : ["0xb72f3c1b0cb8ab9ce44f092dc9881cb4694ec884", "0xa5a28527d9704eb2022733c0c09dfeabbc938ba4", "0xb4e0f976676d89e7af8f3655ef3fecf61f581c94"]
+2022-07-11T23:51:17.628955Z  INFO sui::wallet_commands: Type Arguments : ["0x2::devnet_nft::DevNetNFT", "0x2::sui::SUI"]
+2022-07-11T23:51:17.628956Z  INFO sui::wallet_commands: [1m----- Transaction Effects ----[0m
+2022-07-11T23:51:17.628957Z  INFO sui::wallet_commands: Status : Success
+2022-07-11T23:51:17.628959Z  INFO sui::wallet_commands: Mutated Objects:
+2022-07-11T23:51:17.628960Z  INFO sui::wallet_commands:   - ID: 0x76b62992826133093c8078b154881f075a9e39f3 , Owner: Account Address ( 0x99793ecd184ed8841bf7dd5473e5eaaecf691ee2 )
+2022-07-11T23:51:17.628962Z  INFO sui::wallet_commands:   - ID: 0xa5a28527d9704eb2022733c0c09dfeabbc938ba4 , Owner: Object ID: ( 0xb72f3c1b0cb8ab9ce44f092dc9881cb4694ec884 )
+2022-07-11T23:51:17.628963Z  INFO sui::wallet_commands:   - ID: 0xb4e0f976676d89e7af8f3655ef3fecf61f581c94 , Owner: Account Address ( 0x99793ecd184ed8841bf7dd5473e5eaaecf691ee2 )
+2022-07-11T23:51:17.628965Z  INFO sui::wallet_commands:   - ID: 0xb72f3c1b0cb8ab9ce44f092dc9881cb4694ec884 , Owner: Shared
+2022-07-11T23:51:17.629394Z  INFO sui_storage::lock_service: LockService command loop stopped, the sender on other end hung up/dropped
+2022-07-11T23:51:17.629398Z  INFO sui_storage::lock_service: LockService queries loop stopped, the sender on other end hung up/dropped
+2022-07-11T23:52:22.074927Z  INFO sui_storage::lock_service: LockService command processing loop started
+2022-07-11T23:52:22.074911Z  INFO sui_storage::lock_service: LockService queries processing loop started
+2022-07-11T23:52:22.474579Z  INFO sui::wallet_commands: [1m----- Certificate ----[0m
+2022-07-11T23:52:22.474603Z  INFO sui::wallet_commands: Transaction Hash: Z7cDrelZtkThRxqXpUF73/tdTBEkFn3Jsf+HrhEnbJk=
+2022-07-11T23:52:22.474607Z  INFO sui::wallet_commands: Transaction Signature: 6CQzVTD6rfB5z86eEOLv3KyJxx2lzj9qC9q8ic3N1OHSkF4GjdXO9zWhXiMZEQJes2b1YFPvbTsEVjC1Se2UDw==@W1Ik/BWVpG5YGaipdp+q9gmVzGVGkL9iY1wV8kPjjBg=
+2022-07-11T23:52:22.474609Z  INFO sui::wallet_commands: Signed Authorities : [k#6a458c8968ea1874bfb3f00c275fb18d50938ea6395825bac66682d930f4e990, k#58ee6beaab8b6d280505a7e00fa0765c436ba647277123ea5a01a1f01b2c8d1d, k#588af11bae1bba1c43407412848d3f85bf6d213be3d59576b71b0af774040165]
+2022-07-11T23:52:22.474623Z  INFO sui::wallet_commands: Transaction Kind : Call
+2022-07-11T23:52:22.474630Z  INFO sui::wallet_commands: Package ID : 0x45111271d078ab961f50eff10220705ee7baf882
+2022-07-11T23:52:22.474632Z  INFO sui::wallet_commands: Module : marketplace
+2022-07-11T23:52:22.474633Z  INFO sui::wallet_commands: Function : unpack_listing
+2022-07-11T23:52:22.474635Z  INFO sui::wallet_commands: Arguments : ["0xb72f3c1b0cb8ab9ce44f092dc9881cb4694ec884", "0x24b72414954d9ccd82413da5bf8fc5cf9f200f2f", "0xb4e0f976676d89e7af8f3655ef3fecf61f581c94"]
+2022-07-11T23:52:22.474637Z  INFO sui::wallet_commands: Type Arguments : ["0x2::devnet_nft::DevNetNFT", "0x2::sui::SUI"]
+2022-07-11T23:52:22.474640Z  INFO sui::wallet_commands: [1m----- Transaction Effects ----[0m
+2022-07-11T23:52:22.474641Z  INFO sui::wallet_commands: Status : Success
+2022-07-11T23:52:22.474643Z  INFO sui::wallet_commands: Mutated Objects:
+2022-07-11T23:52:22.474644Z  INFO sui::wallet_commands:   - ID: 0x24b72414954d9ccd82413da5bf8fc5cf9f200f2f , Owner: Account Address ( 0x99793ecd184ed8841bf7dd5473e5eaaecf691ee2 )
+2022-07-11T23:52:22.474657Z  INFO sui::wallet_commands:   - ID: 0x76b62992826133093c8078b154881f075a9e39f3 , Owner: Account Address ( 0x99793ecd184ed8841bf7dd5473e5eaaecf691ee2 )
+2022-07-11T23:52:22.474663Z  INFO sui::wallet_commands:   - ID: 0xb72f3c1b0cb8ab9ce44f092dc9881cb4694ec884 , Owner: Shared
+2022-07-11T23:52:22.474666Z  INFO sui::wallet_commands: Deleted Objects:
+2022-07-11T23:52:22.474669Z  INFO sui::wallet_commands:   - ID: 0xb4e0f976676d89e7af8f3655ef3fecf61f581c94
+2022-07-11T23:52:22.475082Z  INFO sui_storage::lock_service: LockService queries loop stopped, the sender on other end hung up/dropped
+2022-07-11T23:52:22.475086Z  INFO sui_storage::lock_service: LockService command loop stopped, the sender on other end hung up/dropped
+2022-07-11T23:52:53.644005Z  INFO sui_storage::lock_service: LockService command processing loop started
+2022-07-11T23:52:53.644015Z  INFO sui_storage::lock_service: LockService queries processing loop started
+2022-07-11T23:52:53.739376Z  INFO sui::wallet_commands: [1m----- Move Object (0x24b72414954d9ccd82413da5bf8fc5cf9f200f2f[3]) -----[0m
+2022-07-11T23:52:53.739413Z  INFO sui::wallet_commands: [1;90mOwner[0m: Account Address ( 0x99793ecd184ed8841bf7dd5473e5eaaecf691ee2 )
+2022-07-11T23:52:53.739443Z  INFO sui::wallet_commands: [1;90mVersion[0m: 3
+2022-07-11T23:52:53.739461Z  INFO sui::wallet_commands: [1;90mStorage Rebate[0m: 25
+2022-07-11T23:52:53.739465Z  INFO sui::wallet_commands: [1;90mPrevious Transaction[0m: Z7cDrelZtkThRxqXpUF73/tdTBEkFn3Jsf+HrhEnbJk=
+2022-07-11T23:52:53.739486Z  INFO sui::wallet_commands: [1m----- Data -----[0m
+2022-07-11T23:52:53.739516Z  INFO sui::wallet_commands: [1;90mtype[0m: 0x2::devnet_nft::DevNetNFT
+2022-07-11T23:52:53.739520Z  INFO sui::wallet_commands: [1;90mdescription[0m: An NFT created by the wallet Command Line Tool
+2022-07-11T23:52:53.739522Z  INFO sui::wallet_commands: [1;90mid[0m: 0x24b72414954d9ccd82413da5bf8fc5cf9f200f2f[3]
+2022-07-11T23:52:53.739539Z  INFO sui::wallet_commands: [1;90mname[0m: Example NFT
+2022-07-11T23:52:53.739555Z  INFO sui::wallet_commands: [1;90murl[0m: ipfs://bafkreibngqhl3gaa7daob4i2vccziay2jjlp435cf66vhono7nrvww53ty
+2022-07-11T23:52:53.739950Z  INFO sui_storage::lock_service: LockService command loop stopped, the sender on other end hung up/dropped
+2022-07-11T23:52:53.739985Z  INFO sui_storage::lock_service: LockService queries loop stopped, the sender on other end hung up/dropped
+2022-07-11T23:53:01.271612Z  INFO sui_storage::lock_service: LockService command processing loop started
+2022-07-11T23:53:01.271628Z  INFO sui_storage::lock_service: LockService queries processing loop started
+2022-07-11T23:53:01.404860Z  INFO sui::wallet_commands: 0x99793ecd184ed8841bf7dd5473e5eaaecf691ee2
+2022-07-11T23:53:01.405179Z  INFO sui_storage::lock_service: LockService command loop stopped, the sender on other end hung up/dropped
+2022-07-11T23:53:01.405195Z  INFO sui_storage::lock_service: LockService queries loop stopped, the sender on other end hung up/dropped
