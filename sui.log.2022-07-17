@@ -1,0 +1,106 @@
+2022-07-17T00:28:59.432227Z  INFO sui_storage::lock_service: LockService command processing loop started
+2022-07-17T00:28:59.432235Z  INFO sui_storage::lock_service: LockService queries processing loop started
+2022-07-17T00:29:03.503143Z  INFO sui_storage::lock_service: LockService queries loop stopped, the sender on other end hung up/dropped
+2022-07-17T00:29:03.503142Z  INFO sui_storage::lock_service: LockService command loop stopped, the sender on other end hung up/dropped
+2022-07-17T00:29:18.390211Z  INFO sui_storage::lock_service: LockService command processing loop started
+2022-07-17T00:29:18.391625Z  INFO sui_storage::lock_service: LockService queries processing loop started
+2022-07-17T00:29:42.733922Z  INFO sui_storage::lock_service: LockService queries processing loop started
+2022-07-17T00:29:42.734013Z  INFO sui_storage::lock_service: LockService command processing loop started
+2022-07-17T00:29:46.830498Z  INFO sui_storage::lock_service: LockService command loop stopped, the sender on other end hung up/dropped
+2022-07-17T00:29:46.830552Z  INFO sui_storage::lock_service: LockService queries loop stopped, the sender on other end hung up/dropped
+2022-07-17T00:29:51.102544Z  INFO sui_storage::lock_service: LockService queries processing loop started
+2022-07-17T00:29:51.102597Z  INFO sui_storage::lock_service: LockService command processing loop started
+2022-07-17T00:29:51.157009Z  INFO sui_storage::lock_service: LockService command loop stopped, the sender on other end hung up/dropped
+2022-07-17T00:29:51.157059Z  INFO sui_storage::lock_service: LockService queries loop stopped, the sender on other end hung up/dropped
+2022-07-17T00:29:58.464170Z  INFO sui_storage::lock_service: LockService command processing loop started
+2022-07-17T00:29:58.465569Z  INFO sui_storage::lock_service: LockService queries processing loop started
+2022-07-17T00:29:59.811326Z  INFO sui::client_commands: Showing 5 results.
+2022-07-17T00:29:59.811378Z  INFO sui::client_commands: 0x3a26bb59167584b016168b46092a2cf745236645
+2022-07-17T00:29:59.811410Z  INFO sui::client_commands: 0xe6e531a1c48453ab7d6a09130996f965ce47df20
+2022-07-17T00:29:59.811463Z  INFO sui::client_commands: 0x588fce41bf7dd18f319bee56dac79fe8c7fefec3
+2022-07-17T00:29:59.811469Z  INFO sui::client_commands: 0x95694bf740864c76a09abfd7bfe54a25ac9d544f
+2022-07-17T00:29:59.811470Z  INFO sui::client_commands: 0x8ede088611e956a281ff4a1efec009be455ddda1
+2022-07-17T00:29:59.811976Z  INFO sui_storage::lock_service: LockService command loop stopped, the sender on other end hung up/dropped
+2022-07-17T00:29:59.812011Z  INFO sui_storage::lock_service: LockService queries loop stopped, the sender on other end hung up/dropped
+2022-07-17T00:30:17.853632Z  INFO sui_storage::lock_service: LockService command processing loop started
+2022-07-17T00:30:17.853635Z  INFO sui_storage::lock_service: LockService queries processing loop started
+2022-07-17T00:30:17.987320Z  INFO sui::client_commands:                  Object ID                  |  Version   |  Gas Value 
+2022-07-17T00:30:17.987355Z  INFO sui::client_commands: ----------------------------------------------------------------------
+2022-07-17T00:30:17.987372Z  INFO sui::client_commands:  0x0627f8c45de6743b7850dc58035977e5c8145b8a |     0      |   100000   
+2022-07-17T00:30:17.987387Z  INFO sui::client_commands:  0x0873650c34be38fc6173fea6c841608f0c8265ea |     0      |   100000   
+2022-07-17T00:30:17.987404Z  INFO sui::client_commands:  0x0986360fc8637022d9541e72e18c767940b830f7 |     0      |   100000   
+2022-07-17T00:30:17.987420Z  INFO sui::client_commands:  0x10f0f13b7ce5c7ee44513bdb2e155ed6a752210c |     0      |   100000   
+2022-07-17T00:30:17.987436Z  INFO sui::client_commands:  0x1fd82c5fe1081d7e37ba986bee723b99b783a0a1 |     0      |   100000   
+2022-07-17T00:30:17.987733Z  INFO sui_storage::lock_service: LockService queries loop stopped, the sender on other end hung up/dropped
+2022-07-17T00:30:17.987742Z  INFO sui_storage::lock_service: LockService command loop stopped, the sender on other end hung up/dropped
+2022-07-17T00:30:25.391023Z  INFO sui_storage::lock_service: LockService queries processing loop started
+2022-07-17T00:30:25.391090Z  INFO sui_storage::lock_service: LockService command processing loop started
+2022-07-17T00:30:25.477905Z  INFO sui::client_commands: Showing 5 results.
+2022-07-17T00:30:25.477943Z  INFO sui::client_commands: 0x8ae72a9a7a3268f8f6adce529df61c6bc3ad0ab7
+2022-07-17T00:30:25.477950Z  INFO sui::client_commands: 0xa5b6568bbbdd3fbea978f6000a8cb3414897de98
+2022-07-17T00:30:25.477964Z  INFO sui::client_commands: 0xd9d9322ef5a3a918a695627748beae76f9d4af25
+2022-07-17T00:30:25.477967Z  INFO sui::client_commands: 0x15f72047803f6cc0266430e310e44904bbd465d8
+2022-07-17T00:30:25.477970Z  INFO sui::client_commands: 0x422c004babfd12b9fc353342b1a26dcf4480612f
+2022-07-17T00:30:25.478439Z  INFO sui_storage::lock_service: LockService command loop stopped, the sender on other end hung up/dropped
+2022-07-17T00:30:25.478456Z  INFO sui_storage::lock_service: LockService queries loop stopped, the sender on other end hung up/dropped
+2022-07-17T00:30:29.323445Z  INFO sui_storage::lock_service: LockService queries processing loop started
+2022-07-17T00:30:29.323446Z  INFO sui_storage::lock_service: LockService command processing loop started
+2022-07-17T00:30:29.411229Z  INFO sui::client_commands:                  Object ID                  |  Version   |                    Digest                    |   Owner Type    |               Object Type               
+2022-07-17T00:30:29.411281Z  INFO sui::client_commands: ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2022-07-17T00:30:29.411286Z  INFO sui::client_commands:  0x0627f8c45de6743b7850dc58035977e5c8145b8a |     0      | cvttam1tv/68x3QSijSlexrjdpkrawWxte5v1hOiII4= |  AddressOwner   |      0x2::coin::Coin<0x2::sui::SUI>     
+2022-07-17T00:30:29.411288Z  INFO sui::client_commands:  0x0873650c34be38fc6173fea6c841608f0c8265ea |     0      | /pAhjKvQS4KtIVZhS1S801NU5/L8y1eeijIqFiFccGE= |  AddressOwner   |      0x2::coin::Coin<0x2::sui::SUI>     
+2022-07-17T00:30:29.411290Z  INFO sui::client_commands:  0x0986360fc8637022d9541e72e18c767940b830f7 |     0      | sYgXLA6pNLZUCKG2y/eVz2tSxQiN+Jy2MdYeytipwxI= |  AddressOwner   |      0x2::coin::Coin<0x2::sui::SUI>     
+2022-07-17T00:30:29.411291Z  INFO sui::client_commands:  0x10f0f13b7ce5c7ee44513bdb2e155ed6a752210c |     0      | 7peuZ6GzIeypbOZXsD0g4parKGoIVTvkw/d//aa706g= |  AddressOwner   |      0x2::coin::Coin<0x2::sui::SUI>     
+2022-07-17T00:30:29.411293Z  INFO sui::client_commands:  0x1fd82c5fe1081d7e37ba986bee723b99b783a0a1 |     0      | Abk6DRoO/5mnSEhnqxJjIjGGjrQZtwDimWx916lU1Vc= |  AddressOwner   |      0x2::coin::Coin<0x2::sui::SUI>     
+2022-07-17T00:30:29.411295Z  INFO sui::client_commands: Showing 5 results.
+2022-07-17T00:30:29.411660Z  INFO sui_storage::lock_service: LockService command loop stopped, the sender on other end hung up/dropped
+2022-07-17T00:30:29.411675Z  INFO sui_storage::lock_service: LockService queries loop stopped, the sender on other end hung up/dropped
+2022-07-17T00:30:35.975032Z  INFO sui_storage::lock_service: LockService command processing loop started
+2022-07-17T00:30:35.975036Z  INFO sui_storage::lock_service: LockService queries processing loop started
+2022-07-17T00:30:36.145517Z  INFO sui::client_commands: [1mSuccessfully created an ExampleNFT:[0m
+2022-07-17T00:30:36.145548Z  INFO sui::client_commands: 
+2022-07-17T00:30:36.145566Z  INFO sui::client_commands: [1m----- Move Object (0x46d9c009ba84e5a2e6bd5d8e234a1d95024d1be4[1]) -----[0m
+2022-07-17T00:30:36.145570Z  INFO sui::client_commands: [1;90mOwner[0m: Account Address ( 0x8ae72a9a7a3268f8f6adce529df61c6bc3ad0ab7 )
+2022-07-17T00:30:36.145572Z  INFO sui::client_commands: [1;90mVersion[0m: 1
+2022-07-17T00:30:36.145573Z  INFO sui::client_commands: [1;90mStorage Rebate[0m: 25
+2022-07-17T00:30:36.145575Z  INFO sui::client_commands: [1;90mPrevious Transaction[0m: 3qM5sI9l14PJWSFSJLTDmCyxSC+odsswCneyS7wlGRg=
+2022-07-17T00:30:36.145576Z  INFO sui::client_commands: [1m----- Data -----[0m
+2022-07-17T00:30:36.145578Z  INFO sui::client_commands: [1;90mtype[0m: 0x2::devnet_nft::DevNetNFT
+2022-07-17T00:30:36.145579Z  INFO sui::client_commands: [1;90mdescription[0m: An NFT created by the Sui Command Line Tool
+2022-07-17T00:30:36.145580Z  INFO sui::client_commands: [1;90mid[0m: 0x46d9c009ba84e5a2e6bd5d8e234a1d95024d1be4[1]
+2022-07-17T00:30:36.145582Z  INFO sui::client_commands: [1;90mname[0m: Example NFT
+2022-07-17T00:30:36.145583Z  INFO sui::client_commands: [1;90murl[0m: ipfs://bafkreibngqhl3gaa7daob4i2vccziay2jjlp435cf66vhono7nrvww53ty
+2022-07-17T00:30:36.145999Z  INFO sui_storage::lock_service: LockService command loop stopped, the sender on other end hung up/dropped
+2022-07-17T00:30:36.146013Z  INFO sui_storage::lock_service: LockService queries loop stopped, the sender on other end hung up/dropped
+2022-07-17T00:30:44.944957Z  INFO sui_storage::lock_service: LockService command processing loop started
+2022-07-17T00:30:44.944956Z  INFO sui_storage::lock_service: LockService queries processing loop started
+2022-07-17T00:30:45.160037Z  INFO sui_storage::lock_service: LockService command loop stopped, the sender on other end hung up/dropped
+2022-07-17T00:30:45.160047Z  INFO sui_storage::lock_service: LockService queries loop stopped, the sender on other end hung up/dropped
+2022-07-17T00:30:58.889547Z  INFO sui_storage::lock_service: LockService queries processing loop started
+2022-07-17T00:30:58.889536Z  INFO sui_storage::lock_service: LockService command processing loop started
+2022-07-17T00:30:59.231134Z  INFO sui_storage::lock_service: LockService command loop stopped, the sender on other end hung up/dropped
+2022-07-17T00:30:59.231151Z  INFO sui_storage::lock_service: LockService queries loop stopped, the sender on other end hung up/dropped
+2022-07-17T00:31:17.409421Z  INFO sui_storage::lock_service: LockService command processing loop started
+2022-07-17T00:31:17.409432Z  INFO sui_storage::lock_service: LockService queries processing loop started
+2022-07-17T00:31:17.638972Z  INFO sui_storage::lock_service: LockService command loop stopped, the sender on other end hung up/dropped
+2022-07-17T00:31:17.638987Z  INFO sui_storage::lock_service: LockService queries loop stopped, the sender on other end hung up/dropped
+2022-07-17T00:33:27.552547Z  INFO sui_storage::lock_service: LockService queries processing loop started
+2022-07-17T00:33:27.552470Z  INFO sui_storage::lock_service: LockService command processing loop started
+2022-07-17T00:33:27.618692Z  INFO sui::client_commands: Active gateway switched to https://gateway.devnet.sui.io/
+2022-07-17T00:33:27.619093Z  INFO sui_storage::lock_service: LockService command loop stopped, the sender on other end hung up/dropped
+2022-07-17T00:33:27.619111Z  INFO sui_storage::lock_service: LockService queries loop stopped, the sender on other end hung up/dropped
+2022-07-17T00:34:03.915104Z  INFO sui_storage::lock_service: LockService queries processing loop started
+2022-07-17T00:34:03.915091Z  INFO sui_storage::lock_service: LockService command processing loop started
+2022-07-17T00:34:04.030259Z  INFO sui::client_commands: Active gateway switched to https://gateway.devnet.sui.io:443/
+2022-07-17T00:34:04.030600Z  INFO sui_storage::lock_service: LockService command loop stopped, the sender on other end hung up/dropped
+2022-07-17T00:34:04.030604Z  INFO sui_storage::lock_service: LockService queries loop stopped, the sender on other end hung up/dropped
+2022-07-17T00:34:09.017732Z  INFO sui::client_commands:                  Object ID                  |  Version   |  Gas Value 
+2022-07-17T00:34:09.017806Z  INFO sui::client_commands: ----------------------------------------------------------------------
+2022-07-17T00:34:23.180808Z  INFO sui::client_commands: 0x3cf9b5827941f5832b348f428714e9d66245933c
+2022-07-17T00:35:04.634149Z  INFO sui::client_commands:                  Object ID                  |  Version   |  Gas Value 
+2022-07-17T00:35:04.634182Z  INFO sui::client_commands: ----------------------------------------------------------------------
+2022-07-17T00:35:04.634201Z  INFO sui::client_commands:  0x3ad51aba035fc41c5b818fd50d2daf58063740a3 |     2      |    50000   
+2022-07-17T00:35:04.634217Z  INFO sui::client_commands:  0x825366461a9d0c183989346e2d0574525bf7c774 |     2      |    50000   
+2022-07-17T00:35:04.634220Z  INFO sui::client_commands:  0xbfcbbcbcc1928dea5a11482416f6d693bb61747a |     2      |    50000   
+2022-07-17T00:35:04.634222Z  INFO sui::client_commands:  0xd60437e9f877cc660f9a142b8f4e4625d3db143b |     2      |    50000   
+2022-07-17T00:35:04.634224Z  INFO sui::client_commands:  0xf0df4b63ed3604a974d656ae6d87cb55d7abd541 |     2      |    50000   
