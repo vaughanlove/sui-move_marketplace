@@ -311,7 +311,7 @@ module move_marketplace::marketplaceTests {
     }
 
     #[test]
-    fun buy_kitty() {
+    fun buy_nft() {
         let scenario = &mut test_scenario::begin(&ADMIN);
 
         create_marketplace(scenario);
@@ -373,9 +373,41 @@ module move_marketplace::marketplaceTests {
         };
     }
 
+    #[test]
+    fun successful_offer_made() {
+        let scenario = &mut test_scenario::begin(&ADMIN);
+
+        create_marketplace(scenario);
+        mint_some_coin(scenario);
+        mint_kitty(scenario);
+        list_kitty(scenario);
+
+        // BUYER takes 100 SUI from his wallet and purchases Kitty.
+        test_scenario::next_tx(scenario, &BUYER);
+        {
+            let coin = test_scenario::take_owned<Coin<SUI>>(scenario);
+            let mkp_wrapper = test_scenario::take_shared<Marketplace>(scenario);
+            let mkp = test_scenario::borrow_mut(&mut mkp_wrapper);
+            let bag = test_scenario::take_child_object<Marketplace, Bag>(scenario, mkp);
+            let listing = test_scenario::take_child_object<Bag, bag::Item<Listing<Kitty, SUI>>>(scenario, &bag);
+
+            // AMOUNT here is 10 while expected is 100.
+            let payment = coin::take(coin::balance_mut(&mut coin), 10, test_scenario::ctx(scenario));
+
+            // Attempt to make a offer for the listing.
+            marketplace::make_offer<Kitty, SUI>(mkp, listing, &mut bag, payment, test_scenario::ctx(scenario));
+
+            test_scenario::return_shared(scenario, mkp_wrapper);
+            test_scenario::return_owned(scenario, bag);
+            test_scenario::return_owned(scenario, coin);
+        };
+    }
+
     fun burn_kitty(kitty: Kitty): u8 {
         let Kitty{ id, kitty_id } = kitty;
         id::delete(id);
         kitty_id
     }
+
+
 }
