@@ -4,22 +4,17 @@
 module move_marketplace::marketplace {
     use std::option::{Self, Option};
     use sui::id::{Self, ID, VersionedID};
-    use sui::transfer::{Self, ChildRef};
+    use sui::transfer::{Self};
     use sui::tx_context::{Self, TxContext};
     use sui::coin::{Self, Coin};
     use sui::event;
-    use sui::bag::{Self, Bag};
+    use std::vector;
 
 
     struct Marketplace has key {
         id: VersionedID,
-        listings: ChildRef<Bag>,
-        offers: ChildRef<Bag>,
-    }
-
-     struct TypedID<phantom T: key> has key, store {
-        id: VersionedID,
-        listing_id: ID,
+        listings: vector<ID>,
+        offers: vector<ID>,
     }
 
     /// An object held in escrow
@@ -53,10 +48,8 @@ module move_marketplace::marketplace {
     /// Create an escrow for exchanging goods with counterparty
     public entry fun create_market(ctx: &mut TxContext) {
         let id = tx_context::new_id(ctx);
-        let listings = bag::new(ctx);
-        let offers = bag::new(ctx);
-        let (id, listings) = bag::transfer_to_object_id(listings, id);
-        let (id, offers) = bag::transfer_to_object_id(offers, id);
+        let listings = vector::empty();
+        let offers = vector::empty();
 
         let market_place = Marketplace {
             id,
@@ -67,8 +60,7 @@ module move_marketplace::marketplace {
     }
 
     public entry fun create<T: key + store, C>(
-        _marketplace: &Marketplace,
-        listings: &mut Bag,
+        marketplace: &mut Marketplace,
         exchange_for: u64,
         escrowed_item: T,
         ctx: &mut TxContext
@@ -87,7 +79,7 @@ module move_marketplace::marketplace {
             creator: escrow.creator,
         });
 
-        bag::add(listings, TypedID<EscrowedObj<T, C>>{id: tx_context::new_id(ctx), listing_id: *id::inner(&escrow.id)});
+        vector::push_back(&mut marketplace.listings, *id::inner(&escrow.id));
 
         transfer::share_object(
             escrow
@@ -111,11 +103,16 @@ module move_marketplace::marketplace {
 
     /// The `creator` can cancel the escrow and get back the escrowed item
     public entry fun cancel<T: key + store, C>(
+        marketplace: &mut Marketplace,
         escrow: &mut EscrowedObj<T, C>,
         ctx: &mut TxContext
     ) {
         assert!(&tx_context::sender(ctx) == &escrow.creator, EWrongOwner);
         assert!(option::is_some(&escrow.escrowed), EAlreadyExchangedOrCancelled);
+
+        let (_a, idx) = vector::index_of(&marketplace.listings, id::inner(&escrow.id));
+        vector::remove(&mut marketplace.listings, idx);
+
         transfer::transfer(option::extract<T>(&mut escrow.escrowed), escrow.creator);
     }
 }
