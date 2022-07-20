@@ -1,0 +1,11 @@
+{
+  "name": "rpc-listener",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@mysten/sui.js": "^0.6.2",
+    "ws": "^8.8.1"
+  }
+}

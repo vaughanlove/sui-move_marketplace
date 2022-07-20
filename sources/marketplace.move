@@ -4,10 +4,23 @@
 module move_marketplace::marketplace {
     use std::option::{Self, Option};
     use sui::id::{Self, ID, VersionedID};
-    use sui::transfer;
+    use sui::transfer::{Self, ChildRef};
     use sui::tx_context::{Self, TxContext};
     use sui::coin::{Self, Coin};
+    use sui::event;
+    use sui::bag::{Self, Bag};
 
+
+    struct Marketplace has key {
+        id: VersionedID,
+        listings: ChildRef<Bag>,
+        offers: ChildRef<Bag>,
+    }
+
+     struct TypedID<phantom T: key> has key, store {
+        id: VersionedID,
+        listing_id: ID,
+    }
 
     /// An object held in escrow
     struct EscrowedObj<T: key + store, phantom C> has key, store {
@@ -18,6 +31,11 @@ module move_marketplace::marketplace {
         exchange_for: u64, 
         /// the escrowed object
         escrowed: Option<T>,
+    }
+
+    struct ItemListedEvent has copy, drop{
+        escrow_id: ID,
+        creator: address,
     }
 
     // Error codes
@@ -33,7 +51,24 @@ module move_marketplace::marketplace {
     const EIncorrectPayment: u64 = 4;
 
     /// Create an escrow for exchanging goods with counterparty
+    public entry fun create_market(ctx: &mut TxContext) {
+        let id = tx_context::new_id(ctx);
+        let listings = bag::new(ctx);
+        let offers = bag::new(ctx);
+        let (id, listings) = bag::transfer_to_object_id(listings, id);
+        let (id, offers) = bag::transfer_to_object_id(offers, id);
+
+        let market_place = Marketplace {
+            id,
+            listings,
+            offers
+        };
+        transfer::share_object(market_place);
+    }
+
     public entry fun create<T: key + store, C>(
+        _marketplace: &Marketplace,
+        listings: &mut Bag,
         exchange_for: u64,
         escrowed_item: T,
         ctx: &mut TxContext
@@ -43,11 +78,19 @@ module move_marketplace::marketplace {
         let escrowed = option::some(escrowed_item);
 
         //potentially add this to a Bag of IDs for future querying.
+        let escrow = EscrowedObj<T, C> {
+            id, creator, exchange_for, escrowed
+        };
+
+        event::emit(ItemListedEvent {
+            escrow_id: *id::inner(&escrow.id),
+            creator: escrow.creator,
+        });
+
+        bag::add(listings, TypedID<EscrowedObj<T, C>>{id: tx_context::new_id(ctx), listing_id: *id::inner(&escrow.id)});
 
         transfer::share_object(
-            EscrowedObj<T, C> {
-                id, creator, exchange_for, escrowed
-            }
+            escrow
         );
     }
 
@@ -68,7 +111,7 @@ module move_marketplace::marketplace {
 
     /// The `creator` can cancel the escrow and get back the escrowed item
     public entry fun cancel<T: key + store, C>(
-        escrow: &mut EscrowedObj<T, ExchangeForT>,
+        escrow: &mut EscrowedObj<T, C>,
         ctx: &mut TxContext
     ) {
         assert!(&tx_context::sender(ctx) == &escrow.creator, EWrongOwner);

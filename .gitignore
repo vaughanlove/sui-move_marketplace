@@ -4,3 +4,7 @@
 .build
 build
 wallet.log.*
+
+rpc-listener/node_modules
+
+sui.log.*
